@@ -3,1437 +3,133 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ferro &amp; Sal — Arquitetura e Reforma em Natal/RN · Casas que envelhecem bem.</title>
-<meta name="description" content="Escritório de arquitetura e reforma em Natal/RN. Projetamos e executamos reformas residenciais e comerciais no litoral potiguar há 12 anos: 186 obras entregues, 94% no prazo, material que aguenta maresia.">
+<title>Ferro & Sal — Arquitetura e Reforma em Natal/RN · Casas que envelhecem bem.</title>
+<meta name="description" content="Escritório de arquitetura e reforma em Natal/RN. Projetamos e executamos reformas residenciais e comerciais no litoral potiguar há 12 anos: 186 obras entregues, 94% no prazo.">
 <link rel="canonical" href="https://ferroesal.arq.br/">
 <meta name="theme-color" content="#F1ECE3" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#16140F" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="light dark">
-
-<!-- Open Graph / redes sociais -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Ferro &amp; Sal — Arquitetura e Reforma">
-<meta property="og:title" content="Ferro &amp; Sal — Casas que envelhecem bem.">
-<meta property="og:description" content="Reformas residenciais e comerciais no litoral potiguar. Pouca obra por vez, acompanhada de perto, com material que aguenta maresia.">
+<meta property="og:title" content="Ferro &amp; Sal — Arquitetura e Reforma em Natal/RN · Casas que envelhecem bem.">
+<meta property="og:description" content="Escritório de arquitetura e reforma em Natal/RN. Projetamos e executamos reformas residenciais e comerciais no litoral potiguar há 12 anos: 186 obras entregues, 94% no prazo.">
 <meta property="og:url" content="https://ferroesal.arq.br/">
-<!-- TROCAR: imagem 1200×630 para compartilhamento -->
-<meta property="og:image" content="https://ferroesal.arq.br/og-ferroesal.jpg">
+<meta property="og:image" content="https://ferroesal.arq.br/assets/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F1ECE3'/%3E%3Ctext x='16' y='24' font-family='Georgia,serif' font-style='italic' font-size='24' text-anchor='middle' fill='%238A3B1F'%3E%26%3C/text%3E%3C/svg%3E">
-
-<!-- Fontes: Fraunces (títulos, eixo óptico), IBM Plex Sans (texto), IBM Plex Mono (cotas e rótulos) -->
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap">
-
-<!-- Dados estruturados: Schema.org GeneralContractor (subtipo de LocalBusiness) -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..500&amp;family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&amp;display=swap">
+<link rel="stylesheet" href="assets/css/estilo.css">
+<script>try{var t=localStorage.getItem('fs-tema');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "GeneralContractor",
-  "@id": "https://ferroesal.arq.br/#empresa",
-  "name": "Ferro & Sal — Arquitetura e Reforma",
-  "alternateName": "Ferro & Sal",
-  "slogan": "Casas que envelhecem bem.",
-  "description": "Escritório que projeta e executa reformas residenciais e comerciais no litoral potiguar, com materiais locais, ventilação natural e manutenção barata ao longo dos anos.",
-  "url": "https://ferroesal.arq.br/",
-  "telephone": "+55-84-3201-7745",
-  "email": "ola@ferroesal.arq.br",
-  "foundingDate": "2014",
-  "founder": [
-    { "@type": "Person", "name": "Helena Quaresma", "jobTitle": "Arquiteta" },
-    { "@type": "Person", "name": "Davi Moraes Brandão", "jobTitle": "Engenheiro civil" }
-  ],
-  "address": {
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "GeneralContractor",
+   "@id": "https://ferroesal.arq.br/#empresa",
+   "name": "Ferro & Sal — Arquitetura e Reforma",
+   "alternateName": "Ferro & Sal",
+   "slogan": "Casas que envelhecem bem.",
+   "description": "Escritório que projeta e executa reformas residenciais e comerciais no litoral potiguar, com materiais locais, ventilação natural e manutenção barata ao longo dos anos.",
+   "url": "https://ferroesal.arq.br/",
+   "image": "https://ferroesal.arq.br/assets/img/og.jpg",
+   "telephone": "+55-84-3201-7745",
+   "email": "ola@ferroesal.arq.br",
+   "foundingDate": "2014",
+   "founder": [
+    {
+     "@type": "Person",
+     "name": "Helena Quaresma",
+     "jobTitle": "Arquiteta"
+    },
+    {
+     "@type": "Person",
+     "name": "Davi Moraes Brandão",
+     "jobTitle": "Engenheiro civil"
+    }
+   ],
+   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Rua das Salinas, 418 — Ponta Fina",
     "addressLocality": "Natal",
     "addressRegion": "RN",
     "addressCountry": "BR"
-  },
-  "geo": { "@type": "GeoCoordinates", "latitude": -5.7945, "longitude": -35.2110 },
-  "areaServed": {
+   },
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -5.7945,
+    "longitude": -35.211
+   },
+   "areaServed": {
     "@type": "GeoCircle",
-    "geoMidpoint": { "@type": "GeoCoordinates", "latitude": -5.7945, "longitude": -35.2110 },
+    "geoMidpoint": {
+     "@type": "GeoCoordinates",
+     "latitude": -5.7945,
+     "longitude": -35.211
+    },
     "geoRadius": "120000"
-  },
-  "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "12:00" }
-  ],
-  "priceRange": "R$ 650 – R$ 3.800/m²",
-  "sameAs": ["https://instagram.com/ferroesal.arq"]
+   },
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+     ],
+     "opens": "08:00",
+     "closes": "18:00"
+    },
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": "Saturday",
+     "opens": "08:00",
+     "closes": "12:00"
+    }
+   ],
+   "priceRange": "R$ 650 – R$ 3.800/m²",
+   "sameAs": [
+    "https://instagram.com/ferroesal.arq"
+   ]
+  }
+ ]
 }
 </script>
-
-<style>
-/* ==========================================================================
-   FERRO & SAL — folha de estilos
-   Conceito: "caderno de obra". Revista de arquitetura + prancha técnica.
-
-   TROCAR IMAGENS: todas as fotos são placeholders <div class="ph" data-ph="…">
-   com um <img> transparente dentro. Para usar a foto real, troque o src do
-   <img> e remova o atributo data-ph do contêiner (a legenda some).
-   ========================================================================== */
-
-/* --------------------------------------------------------------------------
-   TOKENS — cores, fontes, ritmo, movimento
-   -------------------------------------------------------------------------- */
-:root {
-  --papel:   #F1ECE3;   /* fundo off-white quente */
-  --tinta:   #1A1814;   /* texto */
-  --ferro:   #8A3B1F;   /* acento — óxido, com parcimônia */
-  --sal:     #DCD5C8;   /* fios, divisórias */
-  --cal:     #FAF8F4;   /* cartões, áreas destacadas */
-  --grafite: #5B574F;   /* texto secundário */
-
-  --ph-linha:   color-mix(in srgb, var(--tinta) 20%, transparent);
-  --ph-hachura: color-mix(in srgb, var(--tinta) 7%, transparent);
-  --veu:        rgb(26 24 20 / .45);
-
-  --f-titulo: "Fraunces", "Iowan Old Style", Georgia, serif;
-  --f-texto:  "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --f-mono:   "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
-
-  --fs-mono:  .72rem;
-  --fs-corpo: 1.0625rem;
-  --fs-lead:  clamp(1.12rem, 1.5vw, 1.3rem);
-  --fs-h3:    clamp(1.55rem, 2.8vw, 2.5rem);
-  --fs-h2:    clamp(2.4rem, 6.2vw, 5.25rem);
-  --fs-hero:  clamp(2.6rem, 10.5vw, 8rem);
-
-  --margem: clamp(1rem, 4vw, 3.5rem);
-  --gap:    clamp(1rem, 2vw, 2rem);
-  --max:    1760px;
-  --topo-h: 4.25rem;
-  --secao:  clamp(4.5rem, 10vw, 9rem);
-
-  --fio:  1px solid var(--sal);
-  --raio: 2px;
-
-  --ease:    cubic-bezier(.2, .7, .1, 1);
-  --t-curta: 200ms;
-  --t-media: 400ms;
-  --t-longa: 600ms;
-
-  interpolate-size: allow-keywords;
-  color-scheme: light;
-}
-
-/* Modo escuro (prancha "noite") — automático ou pelo botão no carimbo */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --papel: #16140F; --tinta: #EDE7DC; --ferro: #DB8456; --sal: #38342C;
-    --cal: #1E1B15; --grafite: #A39D92;
-    --ph-linha: color-mix(in srgb, var(--tinta) 16%, transparent);
-    --ph-hachura: color-mix(in srgb, var(--tinta) 5%, transparent);
-    --veu: rgb(0 0 0 / .6);
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --papel: #16140F; --tinta: #EDE7DC; --ferro: #DB8456; --sal: #38342C;
-  --cal: #1E1B15; --grafite: #A39D92;
-  --ph-linha: color-mix(in srgb, var(--tinta) 16%, transparent);
-  --ph-hachura: color-mix(in srgb, var(--tinta) 5%, transparent);
-  --veu: rgb(0 0 0 / .6);
-  color-scheme: dark;
-}
-
-/* --------------------------------------------------------------------------
-   BASE
-   -------------------------------------------------------------------------- */
-*, *::before, *::after { box-sizing: border-box; }
-html {
-  -webkit-text-size-adjust: 100%;
-  scroll-padding-top: calc(var(--topo-h) + 1rem);
-}
-@media (prefers-reduced-motion: no-preference) {
-  html { scroll-behavior: smooth; }
-}
-html:has(dialog[open]) { overflow: hidden; }
-
-body {
-  margin: 0;
-  background: var(--papel);
-  color: var(--tinta);
-  font-family: var(--f-texto);
-  font-size: var(--fs-corpo);
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  overflow-x: clip;
-}
-/* Textura de papel: ruído SVG a 4% */
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 90;
-  pointer-events: none;
-  opacity: .04;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-
-img, svg { display: block; max-width: 100%; }
-h1, h2, h3, h4, p, ul, ol, dl, dd, figure, blockquote { margin: 0; }
-ul[role="list"], ol[role="list"] { list-style: none; padding: 0; }
-a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .2em; }
-button { font: inherit; color: inherit; }
-::selection { background: var(--ferro); color: var(--cal); }
-
-:focus-visible {
-  outline: 2px solid var(--ferro);
-  outline-offset: 3px;
-  border-radius: var(--raio);
-}
-
-.sr-only {
-  position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px;
-  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
-}
-.pular {
-  position: absolute; left: var(--margem); top: -10rem; z-index: 200;
-  background: var(--tinta); color: var(--papel); padding: .6rem 1rem;
-  font-family: var(--f-mono); font-size: var(--fs-mono);
-}
-.pular:focus { top: .75rem; }
-
-/* Tipografia utilitária */
-.mono {
-  font-family: var(--f-mono);
-  font-size: var(--fs-mono);
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  font-variant-numeric: tabular-nums;
-}
-.titulo {
-  font-family: var(--f-titulo);
-  font-weight: 300;
-  font-size: var(--fs-h2);
-  line-height: .95;
-  letter-spacing: -.025em;
-  text-wrap: balance;
-}
-.titulo em, .hero-titulo em { font-style: italic; font-weight: 300; }
-.lead { font-size: var(--fs-lead); line-height: 1.5; max-width: 38ch; }
-.secundario { color: var(--grafite); }
-
-/* Nota à margem — "escrita pelo arquiteto" */
-.nota {
-  position: relative;
-  padding-top: .9rem;
-  max-width: 28ch;
-  font-family: var(--f-titulo);
-  font-style: italic;
-  font-weight: 300;
-  font-size: 1.08rem;
-  line-height: 1.35;
-  color: var(--grafite);
-}
-.nota::before {
-  content: "";
-  position: absolute; top: 0; left: 0;
-  width: 2.5rem; height: 1px;
-  background: var(--ferro);
-}
-
-/* Link-sublinhado (CTA sem botão cheio) */
-.cta {
-  display: inline-flex; align-items: baseline; gap: .5em;
-  padding: .2em 0;
-  background: none; border: 0; cursor: pointer;
-  font-family: var(--f-texto); font-weight: 500;
-  color: var(--tinta);
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: .3em;
-  transition: color var(--t-curta) var(--ease), text-underline-offset var(--t-curta) var(--ease);
-}
-.cta:hover { color: var(--ferro); text-underline-offset: .45em; }
-.cta .seta { display: inline-block; transition: translate var(--t-curta) var(--ease); }
-.cta:hover .seta { translate: .25em 0; }
-
-/* --------------------------------------------------------------------------
-   GRID EDITORIAL — 12 colunas a partir de 48rem
-   -------------------------------------------------------------------------- */
-.wrap { width: min(100% - 2 * var(--margem), var(--max)); margin-inline: auto; }
-.g12 {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  column-gap: var(--gap);
-}
-.g12 > * { grid-column: 1 / -1; }
-
-.secao { padding-block: var(--secao); position: relative; }
-
-/* Cabeço de folha: "FL. 03/11 — O que fazemos" */
-.folha {
-  display: flex; flex-wrap: wrap; align-items: baseline;
-  gap: .4rem 1.5rem;
-  padding-top: .85rem;
-  border-top: var(--fio);
-  margin-bottom: clamp(2.5rem, 6vw, 5rem);
-  color: var(--grafite);
-}
-.folha .fl { color: var(--tinta); }
-.folha .folha-meta { margin-left: auto; }
-
-/* --------------------------------------------------------------------------
-   PLACEHOLDERS DE FOTO — hachura + "X" de vazio, como em planta
-   -------------------------------------------------------------------------- */
-.ph {
-  position: relative;
-  overflow: hidden;
-  background-color: var(--tom, var(--sal));
-  background-image:
-    linear-gradient(to top right, transparent calc(50% - .5px), var(--ph-linha) 50%, transparent calc(50% + .5px)),
-    linear-gradient(to bottom right, transparent calc(50% - .5px), var(--ph-linha) 50%, transparent calc(50% + .5px)),
-    repeating-linear-gradient(-45deg, transparent 0 9px, var(--ph-hachura) 9px 10px);
-  border-radius: var(--raio);
-}
-.ph img {
-  width: 100%;
-  height: auto;
-  aspect-ratio: var(--ar, 4 / 5);
-  object-fit: cover;
-}
-.ph[data-ph]::after {
-  content: attr(data-ph);
-  position: absolute; left: .75rem; bottom: .75rem;
-  max-width: min(36ch, calc(100% - 1.5rem));
-  padding: .35rem .5rem;
-  font: 400 .64rem/1.45 var(--f-mono);
-  letter-spacing: .04em;
-  color: var(--tinta);
-  background: color-mix(in srgb, var(--papel) 90%, transparent);
-  pointer-events: none;
-}
-.legenda {
-  margin-top: .7rem;
-  color: var(--grafite);
-}
-
-/* --------------------------------------------------------------------------
-   COTAS (geradas por JS a partir de [data-cota]) — linha + setas + medida
-   -------------------------------------------------------------------------- */
-.cota { position: relative; color: var(--grafite); }
-.cota svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
-.cota line, .cota path { stroke: currentColor; stroke-width: 1; fill: none; vector-effect: non-scaling-stroke; }
-.cota .cota-traco { stroke-dasharray: 3000; stroke-dashoffset: 0; }
-.cota .cota-ponta { opacity: 1; }
-.cota-medida {
-  position: absolute;
-  font: 400 .68rem/1 var(--f-mono);
-  letter-spacing: .04em;
-  color: var(--tinta);
-  background: var(--papel);
-  padding: .2rem .35rem;
-  white-space: nowrap;
-}
-.cota--v { width: 24px; }
-.cota--v .cota-medida { top: 50%; left: 50%; translate: -50% -50%; rotate: -90deg; }
-.cota--h { height: 24px; }
-.cota--h .cota-medida { left: 50%; top: 50%; translate: -50% -50%; }
-
-/* Desenho da cota: stroke-dashoffset */
-@media (prefers-reduced-motion: no-preference) {
-  .js .cota .cota-traco { stroke-dashoffset: 3000; transition: stroke-dashoffset 600ms var(--ease); }
-  .js .cota .cota-ponta, .js .cota .cota-medida { opacity: 0; transition: opacity var(--t-media) var(--ease) 450ms; }
-  .js .cota.is-desenhada .cota-traco { stroke-dashoffset: 0; }
-  .js .cota.is-desenhada .cota-ponta, .js .cota.is-desenhada .cota-medida { opacity: 1; }
-}
-
-/* --------------------------------------------------------------------------
-   REVELAÇÃO AO ROLAR (IntersectionObserver)
-   -------------------------------------------------------------------------- */
-@media (prefers-reduced-motion: no-preference) {
-  .js .rv {
-    opacity: 0;
-    translate: 0 1.25rem;
-    transition: opacity var(--t-longa) var(--ease), translate var(--t-longa) var(--ease);
-    transition-delay: var(--atraso, 0ms);
-  }
-  .js .rv.is-in { opacity: 1; translate: 0 0; }
-}
-
-/* ==========================================================================
-   FL. 00 — CABEÇALHO
-   ========================================================================== */
-.topo {
-  position: fixed; inset: 0 0 auto; z-index: 60;
-  background: color-mix(in srgb, var(--papel) 96%, transparent);
-  border-bottom: var(--fio);
-  transition: translate var(--t-media) var(--ease);
-}
-.topo.is-oculto:not(:focus-within) { translate: 0 -101%; }
-.topo-in {
-  display: flex; align-items: center; gap: 1rem;
-  height: var(--topo-h);
-}
-.logo {
-  font-family: var(--f-titulo);
-  font-weight: 400;
-  font-size: 1.4rem;
-  letter-spacing: -.02em;
-  text-decoration: none;
-  white-space: nowrap;
-}
-.logo em { font-style: italic; font-weight: 300; color: var(--ferro); padding-inline: .04em; }
-.topo-fl {
-  display: inline-flex; gap: .6rem; align-items: baseline;
-  padding-left: 1rem;
-  border-left: var(--fio);
-  height: 1.4rem;
-  overflow: hidden;
-  color: var(--grafite);
-}
-.topo-fl-num { display: inline-block; color: var(--tinta); }
-.topo-fl-num.is-troca { animation: fl-troca var(--t-media) var(--ease); }
-@keyframes fl-troca { from { translate: 0 100%; opacity: 0; } }
-.topo-fl-nome { display: none; }
-
-.nav { display: none; }
-.topo-dir { margin-left: auto; display: flex; align-items: center; gap: 1.5rem; }
-.topo-clima { display: none; color: var(--grafite); white-space: nowrap; }
-.topo-cta { display: none; font-size: .92rem; }
-
-.menu-btn {
-  display: inline-flex; align-items: center; gap: .6rem;
-  padding: .5rem 0; background: none; border: 0; cursor: pointer;
-}
-.menu-btn-linhas { width: 22px; height: 7px; border-block: 1px solid currentColor; }
-
-@media (min-width: 40rem) {
-  .topo-fl-nome { display: inline; }
-}
-@media (min-width: 64rem) {
-  .nav { display: block; margin-left: 1.5rem; }
-  .nav ul { display: flex; gap: 1.6rem; }
-  .nav a {
-    font-size: .92rem; text-decoration: none; position: relative; padding-block: .3rem;
-    background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
-    transition: background-size var(--t-media) var(--ease);
-  }
-  .nav a:hover, .nav a[aria-current="true"] { background-size: 100% 1px; }
-  .nav a[aria-current="true"] { color: var(--ferro); }
-  .topo-cta { display: inline-flex; }
-  .menu-btn { display: none; }
-  .topo-fl-nome { display: none; }
-}
-@media (min-width: 80rem) {
-  .topo-clima { display: inline; }
-  .topo-fl-nome { display: inline; }
-}
-
-/* Menu mobile em tela cheia */
-.menu {
-  position: fixed; inset: 0;
-  width: 100%; max-width: none; height: 100dvh; max-height: none;
-  margin: 0; padding: 0; border: 0;
-  background: var(--papel); color: var(--tinta);
-  opacity: 0;
-  transition: opacity var(--t-media) var(--ease), display var(--t-media) allow-discrete, overlay var(--t-media) allow-discrete;
-}
-.menu[open] { opacity: 1; }
-@starting-style { .menu[open] { opacity: 0; } }
-.menu::backdrop { background: transparent; }
-.menu-in { min-height: 100%; display: flex; flex-direction: column; }
-.menu-topo { display: flex; align-items: center; justify-content: space-between; height: var(--topo-h); border-bottom: var(--fio); }
-.menu-fechar { background: none; border: 0; padding: .5rem 0; cursor: pointer; }
-.menu-lista { padding-block: 2rem; flex: 1; }
-.menu-lista li { border-bottom: var(--fio); }
-.menu-lista a {
-  display: flex; align-items: baseline; gap: 1rem;
-  padding-block: .9rem;
-  font-family: var(--f-titulo); font-weight: 300;
-  font-size: clamp(2.4rem, 11vw, 4rem); line-height: 1; letter-spacing: -.02em;
-  text-decoration: none;
-}
-.menu-lista a .mono { color: var(--grafite); min-width: 3.2rem; }
-.menu-rodape { padding-block: 1.5rem 2rem; display: grid; gap: .4rem; color: var(--grafite); }
-
-/* ==========================================================================
-   FL. 01 — HERO
-   ========================================================================== */
-.hero {
-  padding-top: calc(var(--topo-h) + clamp(2.5rem, 7vw, 6rem));
-  padding-bottom: clamp(3rem, 6vw, 5rem);
-  position: relative;
-}
-/* guias de coluna, como papel milimetrado de prancha */
-.hero::before {
-  content: "";
-  position: absolute; inset: var(--topo-h) 0 0;
-  pointer-events: none;
-  opacity: .55;
-  background: repeating-linear-gradient(90deg, var(--sal) 0 1px, transparent 1px calc((min(100vw - 2 * var(--margem), var(--max)) + var(--gap)) / 12));
-  background-position: max(var(--margem), calc((100vw - var(--max)) / 2)) 0;
-  -webkit-mask-image: linear-gradient(to bottom, #000, transparent 85%);
-          mask-image: linear-gradient(to bottom, #000, transparent 85%);
-  display: none;
-}
-@media (min-width: 64rem) { .hero::before { display: block; } }
-
-.hero-titulo {
-  font-family: var(--f-titulo);
-  font-weight: 300;
-  font-size: var(--fs-hero);
-  line-height: .95;
-  letter-spacing: -.035em;
-  margin-bottom: clamp(2.5rem, 6vw, 5rem);
-  position: relative;
-}
-.hero-titulo .linha { display: block; overflow: hidden; padding-bottom: .1em; margin-bottom: -.1em; }
-.hero-titulo .linha > span { display: inline-block; }
-.hero-titulo .linha:nth-child(2) { padding-left: clamp(0rem, 8vw, 9rem); }
-.hero-titulo em { color: var(--tinta); }
-
-@media (prefers-reduced-motion: no-preference) {
-  .js .hero-titulo .linha > span { translate: 0 110%; transition: translate 600ms var(--ease); }
-  .js .hero-titulo .linha:nth-child(2) > span { transition-delay: 120ms; }
-  .js .hero.is-pronto .hero-titulo .linha > span { translate: 0 0; }
-  .js .hero-texto, .js .hero-rodape { opacity: 0; transition: opacity var(--t-longa) var(--ease) 350ms; }
-  .js .hero.is-pronto .hero-texto, .js .hero.is-pronto .hero-rodape { opacity: 1; }
-}
-
-.hero-texto { align-self: start; display: grid; gap: 1.75rem; margin-bottom: 2.5rem; }
-.hero-texto .lead { max-width: 34ch; }
-.hero-figura { position: relative; }
-.hero-figura .ph { --ar: 4 / 5; }
-.hero-cotas { position: relative; }
-.hero-cota-v { position: absolute; top: 0; bottom: 0; left: -34px; }
-.hero-cota-h { position: absolute; left: 0; right: 0; top: -34px; }
-.hero-figura .legenda { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-
-.hero-rodape {
-  display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem;
-  margin-top: clamp(2.5rem, 5vw, 4rem);
-  padding-top: .85rem;
-  border-top: var(--fio);
-  color: var(--grafite);
-}
-.hero-rodape strong { color: var(--tinta); font-weight: 500; }
-
-@media (max-width: 47.99rem) {
-  .hero-figura { margin-left: 34px; margin-top: 34px; }
-}
-@media (min-width: 48rem) {
-  .hero-texto { grid-column: 1 / 6; grid-row: 2; }
-  .hero-figura { grid-column: 7 / 13; grid-row: 2; margin-top: 34px; }
-}
-@media (min-width: 64rem) {
-  .hero-texto { grid-column: 1 / 5; margin-bottom: 0; padding-top: calc(34px + 2rem); }
-  .hero-figura { grid-column: 7 / 12; }
-}
-@media (min-width: 100rem) {
-  .hero-figura { grid-column: 8 / 12; }
-}
-
-/* ==========================================================================
-   FL. 02 — MANIFESTO
-   ========================================================================== */
-.manifesto-texto {
-  font-family: var(--f-titulo);
-  font-weight: 300;
-  font-size: clamp(1.75rem, 3.9vw, 3.4rem);
-  line-height: 1.12;
-  letter-spacing: -.018em;
-  text-wrap: pretty;
-}
-.manifesto-texto .w { color: var(--tinta); }
-.manifesto-texto em { font-style: italic; }
-.manifesto-nota { margin-top: 2.5rem; }
-
-@media (prefers-reduced-motion: no-preference) {
-  /* Palavras de --sal para --tinta conforme a rolagem (CSS scroll-driven) */
-  @supports ((animation-timeline: view()) and (animation-range: entry)) {
-    .manifesto-texto { view-timeline: --manifesto block; }
-    .js .manifesto-texto .w {
-      animation: tingir auto linear both;
-      animation-timeline: --manifesto;
-      animation-range: cover var(--a, 20%) cover var(--b, 24%);
-    }
-  }
-  /* Fallback (Firefox): a classe é ligada por JS na rolagem */
-  .js.sem-sda .manifesto-texto .w { color: var(--sal); transition: color var(--t-curta) linear; }
-  .js.sem-sda .manifesto-texto .w.is-on { color: var(--tinta); }
-}
-@keyframes tingir { from { color: var(--sal); } to { color: var(--tinta); } }
-
-.numeros {
-  margin-top: clamp(4rem, 9vw, 8rem);
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  border-top: 1px solid var(--tinta);
-}
-.numeros-cab { grid-column: 1 / -1; display: flex; justify-content: space-between; padding-block: .6rem; border-bottom: var(--fio); color: var(--grafite); }
-.numeros > div:not(.numeros-cab) {
-  display: flex; flex-direction: column-reverse; justify-content: flex-end; gap: .6rem;
-  padding: 1.25rem 1rem 1.5rem 0;
-  border-bottom: var(--fio);
-}
-.numeros dd {
-  font-family: var(--f-titulo); font-weight: 300;
-  font-size: clamp(2.6rem, 5.5vw, 4.6rem); line-height: .9; letter-spacing: -.03em;
-  font-variant-numeric: lining-nums tabular-nums;
-}
-.numeros dd small { font-size: .45em; letter-spacing: 0; margin-left: .05em; }
-.numeros dt { font-size: .9rem; color: var(--grafite); max-width: 20ch; line-height: 1.35; }
-.numeros-rodape { grid-column: 1 / -1; padding-top: .7rem; color: var(--grafite); text-transform: none; letter-spacing: .02em; }
-
-@media (min-width: 48rem) {
-  .manifesto-texto { grid-column: 2 / 12; }
-  .manifesto-nota { grid-column: 8 / 13; }
-}
-@media (min-width: 64rem) {
-  .manifesto-texto { grid-column: 3 / 11; }
-  .manifesto-nota { grid-column: 11 / 13; grid-row: 1; align-self: end; margin-top: 0; margin-bottom: .6rem; }
-  .numeros { grid-template-columns: 1.4fr repeat(4, minmax(0, 1fr)); }
-  .numeros > div:not(.numeros-cab) { padding-left: 1.25rem; border-left: var(--fio); }
-  .numeros > div:nth-child(2) { padding-left: 0; border-left: 0; }
-}
-
-/* ==========================================================================
-   FL. 03 — O QUE FAZEMOS (lista editorial em acordeão)
-   ========================================================================== */
-.servicos-cab { margin-bottom: clamp(2.5rem, 5vw, 4rem); display: grid; gap: 1.5rem; }
-.servicos { border-top: 1px solid var(--tinta); }
-.servicos > li { border-bottom: var(--fio); }
-.servico summary {
-  list-style: none;
-  cursor: pointer;
-  display: grid;
-  grid-template-columns: 2.6rem 1fr 1.25rem;
-  align-items: baseline;
-  column-gap: .75rem;
-  padding-block: 1.4rem;
-  transition: background-color var(--t-media) var(--ease);
-}
-.servico summary::-webkit-details-marker { display: none; }
-.servico summary:focus-visible { outline-offset: -2px; }
-.servico-n { color: var(--grafite); }
-.servico-nome {
-  font-family: var(--f-titulo); font-weight: 300;
-  font-size: clamp(1.5rem, 3.4vw, 3rem); line-height: 1.02; letter-spacing: -.02em;
-  transition: translate var(--t-media) var(--ease), color var(--t-media) var(--ease);
-}
-.servico-resumo { grid-column: 2; color: var(--grafite); font-size: .95rem; margin-top: .35rem; }
-.servico-sinal { grid-column: 3; grid-row: 1; position: relative; width: 1.1rem; height: 1.1rem; align-self: center; }
-.servico-sinal::before, .servico-sinal::after {
-  content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: currentColor;
-  transition: scale var(--t-media) var(--ease);
-}
-.servico-sinal::after { scale: 1; rotate: 90deg; }
-.servico[open] .servico-sinal::after { scale: 0 1; }
-.servico[open] .servico-nome { color: var(--ferro); }
-@media (hover: hover) {
-  .servico summary:hover .servico-nome { translate: .6rem 0; }
-}
-.servico-corpo {
-  display: grid; gap: 1.25rem;
-  padding: 0 0 2rem 3.35rem;
-}
-.servico-corpo p { max-width: 58ch; }
-.servico-corpo .mono { color: var(--grafite); text-transform: none; letter-spacing: .02em; font-size: .78rem; }
-
-/* Abre/fecha com altura animada (progressivo: ::details-content + interpolate-size) */
-@supports (interpolate-size: allow-keywords) {
-  @media (prefers-reduced-motion: no-preference) {
-    .servico::details-content, .faq-item::details-content {
-      block-size: 0;
-      overflow: clip;
-      transition: block-size var(--t-media) var(--ease), content-visibility var(--t-media) allow-discrete;
-    }
-    .servico[open]::details-content, .faq-item[open]::details-content { block-size: auto; }
-  }
-}
-
-@media (min-width: 48rem) {
-  .servicos-cab { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .servicos-cab .titulo { grid-column: 1 / 8; }
-  .servicos-cab .nota { grid-column: 9 / 13; align-self: end; }
-  .servico summary { grid-template-columns: 4rem minmax(0, 1.25fr) minmax(0, 1fr) 1.25rem; padding-block: 1.75rem; }
-  .servico-resumo { grid-column: 3; margin-top: 0; padding-left: 1rem; }
-  .servico-sinal { grid-column: 4; }
-  .servico-corpo { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); column-gap: var(--gap); padding-left: 4.75rem; padding-right: 2rem; }
-}
-
-/* Imagem que segue o cursor (desktop) */
-.segue {
-  position: fixed; left: 0; top: 0; z-index: 40;
-  width: 15rem;
-  pointer-events: none;
-  opacity: 0;
-  scale: .96;
-  transition: opacity var(--t-curta) var(--ease), scale var(--t-media) var(--ease);
-  will-change: transform;
-}
-.segue.is-visivel { opacity: 1; scale: 1; }
-.segue .ph { --ar: 4 / 3; }
-.segue .ph::after { font-size: .58rem; }
-
-/* ==========================================================================
-   FL. 04 — OBRAS SELECIONADAS (galeria assimétrica + antes/depois)
-   ========================================================================== */
-.obras-cab { display: grid; gap: 1.5rem; margin-bottom: clamp(3rem, 7vw, 6rem); }
-.obras { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); row-gap: clamp(3.5rem, 8vw, 7rem); }
-.obra { grid-column: 1 / -1; }
-.obra-cota { margin-bottom: 10px; }
-
-.ba {
-  --pos: 50%;
-  position: relative;
-  aspect-ratio: var(--ar, 4 / 3);
-  overflow: hidden;
-  touch-action: pan-y;
-  user-select: none;
-  -webkit-user-select: none;
-  border-radius: var(--raio);
-  cursor: ew-resize;
-}
-.ba .ph { position: absolute; inset: 0; border-radius: 0; }
-.ba .ph img { height: 100%; aspect-ratio: auto; }
-.ba-antes { clip-path: inset(0 calc(100% - var(--pos)) 0 0); --tom: #C7BCA9; }
-.ba-depois { --tom: #E4DCCD; }
-.ba .ph[data-ph]::after { max-width: min(30ch, 44%); }
-.ba-depois[data-ph]::after { left: auto; right: .75rem; bottom: auto; top: 3rem; text-align: right; }
-.ba-rotulo {
-  position: absolute; top: .75rem; z-index: 2;
-  padding: .3rem .5rem;
-  background: var(--papel); color: var(--tinta);
-  pointer-events: none;
-}
-.ba-rotulo--antes { left: .75rem; }
-.ba-rotulo--depois { right: .75rem; }
-.ba-alca {
-  position: absolute; top: 0; bottom: 0; left: var(--pos); z-index: 3;
-  width: 44px; translate: -50% 0;
-  display: grid; place-items: center;
-  cursor: ew-resize;
-}
-.ba-alca::before { content: ""; position: absolute; top: 0; bottom: 0; left: 50%; width: 1px; background: var(--papel); box-shadow: 0 0 0 .5px color-mix(in srgb, var(--tinta) 35%, transparent); }
-.ba-alca-pega {
-  position: relative;
-  width: 34px; height: 34px;
-  display: grid; place-items: center;
-  background: var(--papel);
-  border: 1px solid var(--tinta);
-  border-radius: var(--raio);
-}
-.ba-alca-pega svg { width: 18px; height: 10px; }
-.ba-alca-pega path { stroke: var(--tinta); fill: none; stroke-width: 1.2; }
-.ba-alca:focus-visible { outline: none; }
-.ba-alca:focus-visible .ba-alca-pega { outline: 2px solid var(--ferro); outline-offset: 2px; }
-.ba.is-arrastando .ba-alca-pega { background: var(--tinta); }
-.ba.is-arrastando .ba-alca-pega path { stroke: var(--papel); }
-
-.obra-info {
-  display: grid; grid-template-columns: auto 1fr; gap: .25rem 1rem;
-  margin-top: 1.1rem; padding-top: .8rem;
-  border-top: var(--fio);
-}
-.obra-n { color: var(--grafite); grid-row: span 2; padding-top: .45rem; }
-.obra-nome { font-family: var(--f-titulo); font-weight: 400; font-size: var(--fs-h3); line-height: 1.05; letter-spacing: -.02em; }
-.obra-nome button {
-  all: unset; cursor: pointer;
-  background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat;
-  transition: background-size var(--t-media) var(--ease), color var(--t-curta);
-}
-.obra-nome button:hover { background-size: 100% 1px; color: var(--ferro); }
-.obra-nome button:focus-visible { outline: 2px solid var(--ferro); outline-offset: 3px; }
-.obra-meta { color: var(--grafite); text-transform: none; letter-spacing: .02em; }
-.obra-acoes { grid-column: 2; margin-top: .6rem; }
-.obra-acoes .cta { font-size: .92rem; }
-.obras-nota { grid-column: 1 / -1; }
-
-@media (min-width: 48rem) {
-  .obras-cab { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .obras-cab .titulo { grid-column: 1 / 8; }
-  .obras-cab .lead { grid-column: 9 / 13; align-self: end; }
-  .obra:nth-child(odd) { grid-column: 1 / 9; }
-  .obra:nth-child(even) { grid-column: 5 / 13; }
-}
-@media (min-width: 64rem) {
-  .obra--pitangui    { grid-column: 1 / 8 !important; --ar: 4 / 3; }
-  .obra--cardume     { grid-column: 9 / 13 !important; --ar: 3 / 4; margin-top: 9rem; }
-  .obra--areia       { grid-column: 2 / 7 !important; --ar: 4 / 5; }
-  .obra--maracajau   { grid-column: 7 / 13 !important; --ar: 3 / 2; margin-top: 14rem; }
-  .obra--livia       { grid-column: 4 / 9 !important; --ar: 16 / 11; }
-  .obras-nota        { grid-column: 10 / 13; align-self: end; }
-}
-.obra { --ar: 4 / 3; }
-.obra .ba { aspect-ratio: var(--ar); }
-
-/* Painel lateral — ficha técnica */
-.painel {
-  position: fixed;
-  inset: 0 0 0 auto;
-  margin: 0;
-  width: min(42rem, 100%);
-  max-width: 100%;
-  height: 100dvh; max-height: none;
-  padding: 0;
-  border: 0; border-left: 1px solid var(--tinta);
-  background: var(--papel); color: var(--tinta);
-  overflow-y: auto;
-  overscroll-behavior: contain;
-}
-@media (prefers-reduced-motion: no-preference) {
-  .painel {
-    translate: 100% 0;
-    transition: translate 500ms var(--ease), display 500ms allow-discrete, overlay 500ms allow-discrete;
-  }
-  .painel[open] { translate: 0 0; }
-  @starting-style { .painel[open] { translate: 100% 0; } }
-  .painel::backdrop { transition: background-color 500ms var(--ease), display 500ms allow-discrete, overlay 500ms allow-discrete; }
-  @starting-style { .painel[open]::backdrop { background-color: transparent; } }
-}
-.painel::backdrop { background-color: var(--veu); }
-.painel-in { min-height: 100%; padding: 0 clamp(1.25rem, 4vw, 3rem) 3rem; }
-.painel-topo {
-  position: sticky; top: 0; z-index: 2;
-  display: flex; justify-content: space-between; align-items: center;
-  height: var(--topo-h);
-  background: var(--papel);
-  border-bottom: var(--fio);
-  color: var(--grafite);
-}
-.painel-fechar { background: none; border: 0; cursor: pointer; padding: .5rem 0; color: var(--tinta); text-decoration: underline; text-underline-offset: .3em; }
-.painel-titulo { font-family: var(--f-titulo); font-weight: 300; font-size: clamp(2.2rem, 6vw, 3.6rem); line-height: .98; letter-spacing: -.025em; margin-top: 2rem; }
-.painel-sub { margin-top: .75rem; color: var(--grafite); }
-.painel .ph { margin-top: 2rem; --ar: 3 / 2; --tom: #E4DCCD; }
-.ficha {
-  display: grid; grid-template-columns: minmax(7.5rem, auto) 1fr;
-  margin-top: 2rem; border-top: 1px solid var(--tinta);
-}
-.ficha dt, .ficha dd { padding-block: .7rem; border-bottom: var(--fio); }
-.ficha dt { color: var(--grafite); padding-right: 1rem; }
-.ficha dd { font-family: var(--f-texto); font-size: .98rem; text-transform: none; letter-spacing: 0; }
-.ficha dd.destaque { color: var(--ferro); font-weight: 500; }
-.painel-texto { margin-top: 2.5rem; display: grid; gap: 1.75rem; }
-.painel-texto h3 { color: var(--grafite); margin-bottom: .4rem; font-weight: 400; }
-.painel-texto p { max-width: 60ch; }
-.painel-nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem; padding-top: 1rem; border-top: var(--fio); }
-.painel-nav .cta { font-size: .92rem; text-align: left; }
-
-/* ==========================================================================
-   FL. 05 — COMO TRABALHAMOS (linha do tempo horizontal fixada)
-   ========================================================================== */
-.processo { padding-bottom: 0; }
-.processo-cab { display: grid; gap: 1.5rem; margin-bottom: clamp(2.5rem, 6vw, 4rem); }
-.trilho {
-  list-style: none; margin: 0; padding: 0;
-  position: relative;
-}
-.etapa {
-  position: relative;
-  padding: 0 0 2.75rem 2.25rem;
-  border-left: 1px solid var(--tinta);
-}
-.etapa::before {
-  content: ""; position: absolute; left: -5px; top: .3rem;
-  width: 9px; height: 9px;
-  background: var(--papel); border: 1px solid var(--tinta);
-}
-.etapa:last-child { border-left-color: transparent; }
-.etapa-n { color: var(--grafite); display: flex; gap: .75rem; align-items: baseline; flex-wrap: wrap; }
-.etapa-dur { color: var(--ferro); }
-.etapa h3 {
-  font-family: var(--f-titulo); font-weight: 300;
-  font-size: clamp(1.7rem, 3vw, 2.6rem); line-height: 1.02; letter-spacing: -.02em;
-  margin: .75rem 0 .9rem;
-  max-width: 16ch;
-}
-.etapa p { max-width: 40ch; color: var(--tinta); }
-.etapa-dur-cota { display: none; }
-.trilho-regua { display: none; }
-
-@media (min-width: 48rem) {
-  .processo-cab { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .processo-cab .titulo { grid-column: 1 / 8; }
-  .processo-cab .nota { grid-column: 9 / 13; align-self: end; }
-}
-
-/* Modo fixado (ligado por JS em telas ≥ 64rem e sem reduced-motion) */
-.processo.is-fixado .trilho-scroll { position: relative; }
-.processo.is-fixado .trilho-sticky {
-  position: sticky; top: 0;
-  height: 100vh; height: 100svh;
-  overflow: hidden;
-  display: flex; flex-direction: column; justify-content: center;
-}
-.processo.is-fixado .trilho {
-  display: flex;
-  width: max-content;
-  padding-inline: max(var(--margem), calc((100vw - var(--max)) / 2)) 20vw;
-  will-change: transform;
-}
-.processo.is-fixado .etapa {
-  width: clamp(19rem, 30vw, 31rem);
-  padding: 2.5rem 2.5rem 0 0;
-  border-left: 0;
-  border-top: 1px solid var(--tinta);
-  opacity: .38;
-  transition: opacity var(--t-media) var(--ease);
-}
-.processo.is-fixado .etapa.is-atual, .processo.is-fixado .etapa.is-feita { opacity: 1; }
-.processo.is-fixado .etapa::before { left: 0; top: -5px; }
-.processo.is-fixado .etapa.is-atual::before { background: var(--ferro); border-color: var(--ferro); }
-.processo.is-fixado .etapa:last-child { border-top-color: var(--tinta); }
-.processo.is-fixado .etapa-n { font-size: .78rem; }
-.processo.is-fixado .etapa h3 { font-size: clamp(2rem, 2.9vw, 2.9rem); }
-.processo.is-fixado .trilho-regua {
-  display: flex; align-items: center; gap: 1.5rem;
-  width: min(100% - 2 * var(--margem), var(--max)); margin: 3.5rem auto 0;
-  color: var(--grafite);
-}
-.trilho-regua-barra {
-  flex: 1; height: 9px; position: relative;
-  background: repeating-linear-gradient(90deg, var(--grafite) 0 1px, transparent 1px 10%) 0 100% / 100% 5px no-repeat;
-  border-bottom: 1px solid var(--grafite);
-}
-.trilho-regua-barra::after {
-  content: ""; position: absolute; left: 0; bottom: -1px; height: 3px;
-  width: calc(var(--p, 0) * 100%);
-  background: var(--ferro);
-}
-.trilho-regua-atual { color: var(--tinta); min-width: 9ch; }
-
-/* Diário de obra — página de caderno */
-.diario-bloco { padding-block: var(--secao); display: grid; gap: 2rem; }
-.diario {
-  position: relative;
-  background-color: var(--cal);
-  background-image: repeating-linear-gradient(to bottom, transparent 0 calc(1.75rem - 1px), color-mix(in srgb, #6E8FA8 28%, transparent) calc(1.75rem - 1px) 1.75rem);
-  background-position: 0 3.6rem;
-  border: 1px solid var(--sal);
-  border-radius: var(--raio);
-  padding: 1.5rem 1.25rem 2rem 3.25rem;
-  line-height: 1.75rem;
-  font-size: .98rem;
-}
-.diario::before {
-  content: ""; position: absolute; top: 0; bottom: 0; left: 2.25rem;
-  width: 1px; background: color-mix(in srgb, var(--ferro) 55%, transparent);
-}
-.diario-cab {
-  display: flex; flex-wrap: wrap; justify-content: space-between; gap: .25rem 1rem;
-  padding-bottom: .55rem; margin-bottom: 1.75rem;
-  border-bottom: 1px solid var(--tinta);
-  line-height: 1.5;
-}
-.diario-titulo { font-family: var(--f-titulo); font-size: 1.45rem; font-weight: 400; letter-spacing: -.01em; }
-.diario dl { display: grid; grid-template-columns: 1fr; }
-.diario dt { color: var(--grafite); font-family: var(--f-mono); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; }
-.diario dd { margin-bottom: 1.75rem; }
-.diario ul { margin: 0; padding-left: 1.1rem; }
-.diario-atencao { color: var(--ferro); }
-.diario-assina { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .5rem; align-items: baseline; }
-.diario-assina .rubrica { font-family: var(--f-titulo); font-style: italic; font-size: 1.5rem; font-weight: 300; }
-.diario-aside { display: grid; gap: 1.5rem; align-content: start; }
-.diario-aside .ph { --ar: 4 / 3; --tom: #D4CBBB; }
-
-@media (min-width: 48rem) {
-  .diario dl { grid-template-columns: 11rem 1fr; column-gap: 1.5rem; }
-  .diario { padding: 2rem 2.5rem 2.25rem 5rem; }
-  .diario::before { left: 3.5rem; }
-}
-@media (min-width: 64rem) {
-  .diario-bloco { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .diario-intro { grid-column: 1 / 5; }
-  .diario { grid-column: 5 / 12; grid-row: 1 / 3; }
-  .diario-aside { grid-column: 1 / 5; grid-row: 2; }
-}
-
-/* ==========================================================================
-   FL. 06 — ESTIMATIVA RÁPIDA (calculadora)
-   ========================================================================== */
-.calc-cab { margin-bottom: clamp(2.5rem, 5vw, 4rem); display: grid; gap: 1.5rem; }
-.calc { display: grid; gap: 3rem; }
-.calc fieldset { border: 0; padding: 0; margin: 0 0 2.5rem; min-width: 0; }
-.calc legend, .calc-rotulo { padding: 0; margin-bottom: 1rem; color: var(--grafite); display: flex; justify-content: space-between; width: 100%; }
-.calc-rotulo output { color: var(--tinta); font-size: .82rem; }
-
-.opcoes { display: flex; flex-wrap: wrap; gap: .5rem 2rem; }
-.opcao { position: relative; cursor: pointer; }
-.opcao input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
-.opcao span {
-  display: inline-block;
-  font-family: var(--f-titulo); font-weight: 300; font-size: clamp(1.6rem, 3vw, 2.2rem); line-height: 1.1; letter-spacing: -.02em;
-  color: var(--grafite);
-  padding-bottom: .2rem;
-  background: linear-gradient(var(--ferro), var(--ferro)) 0 100% / 0 2px no-repeat;
-  transition: color var(--t-curta), background-size var(--t-media) var(--ease);
-}
-.opcao input:checked + span { color: var(--tinta); background-size: 100% 2px; }
-.opcao input:focus-visible + span { outline: 2px solid var(--ferro); outline-offset: 4px; }
-
-.padroes { border-top: 1px solid var(--tinta); }
-.padrao { display: grid; grid-template-columns: 1.5rem 1fr auto; gap: .2rem .75rem; align-items: baseline; padding-block: 1rem; border-bottom: var(--fio); cursor: pointer; }
-.padrao input { margin: 0; accent-color: var(--ferro); width: 1rem; height: 1rem; translate: 0 .1rem; }
-.padrao-nome { font-family: var(--f-titulo); font-size: 1.35rem; font-weight: 400; letter-spacing: -.01em; }
-.padrao-preco { color: var(--tinta); }
-.padrao-desc { grid-column: 2 / 4; color: var(--grafite); font-size: .92rem; }
-.padrao:has(input:checked) .padrao-nome { color: var(--ferro); }
-
-.extras { display: grid; gap: .25rem; }
-.extra { display: grid; grid-template-columns: 1.5rem 1fr auto; gap: .75rem; align-items: baseline; padding-block: .75rem; border-bottom: var(--fio); cursor: pointer; }
-.extra input { margin: 0; accent-color: var(--ferro); width: 1rem; height: 1rem; translate: 0 .1rem; }
-.extra .mono { color: var(--grafite); }
-
-/* Slider de área */
-.area-range {
-  -webkit-appearance: none; appearance: none;
-  width: 100%; height: 2.25rem; margin: 0;
-  background: transparent; cursor: pointer;
-  --fill: 30%;
-}
-.area-range::-webkit-slider-runnable-track {
-  height: 1px;
-  background: linear-gradient(90deg, var(--ferro) var(--fill), var(--tinta) var(--fill));
-}
-.area-range::-moz-range-track { height: 1px; background: var(--tinta); }
-.area-range::-moz-range-progress { height: 2px; background: var(--ferro); }
-.area-range::-webkit-slider-thumb {
-  -webkit-appearance: none; appearance: none;
-  width: 18px; height: 18px; margin-top: -9px;
-  background: var(--papel); border: 1px solid var(--tinta); border-radius: var(--raio);
-  transition: background-color var(--t-curta);
-}
-.area-range::-moz-range-thumb {
-  width: 16px; height: 16px;
-  background: var(--papel); border: 1px solid var(--tinta); border-radius: var(--raio);
-}
-.area-range:active::-webkit-slider-thumb { background: var(--tinta); }
-.area-range:focus-visible { outline-offset: 6px; }
-.area-escala { position: relative; height: 1rem; color: var(--grafite); font-size: .64rem; margin: .1rem 9px 0; }
-.area-escala span { position: absolute; left: calc((var(--v) - 20) / 380 * 100%); translate: -50% 0; white-space: nowrap; }
-.area-escala span:first-child { translate: 0 0; }
-.area-escala span:last-child { translate: -100% 0; }
-
-.resultado {
-  align-self: start;
-  background: var(--cal);
-  border: 1px solid var(--tinta);
-  border-radius: var(--raio);
-  padding: clamp(1.5rem, 3vw, 2.5rem);
-}
-.resultado-rotulo { color: var(--grafite); display: flex; justify-content: space-between; gap: 1rem; }
-.resultado-valor {
-  display: block;
-  margin-top: 1.25rem;
-  font-family: var(--f-titulo); font-weight: 300;
-  font-size: clamp(2.3rem, 5vw, 4.25rem); line-height: 1; letter-spacing: -.03em;
-  font-variant-numeric: lining-nums;
-  text-wrap: balance;
-}
-.resultado-valor .a { font-style: italic; color: var(--grafite); font-size: .6em; padding-inline: .1em; }
-.resultado-prazo { margin-top: 1.25rem; font-size: 1.05rem; }
-.resultado-prazo strong { font-weight: 500; }
-.resultado-conta { margin-top: 1.5rem; padding-top: .9rem; border-top: var(--fio); color: var(--grafite); text-transform: none; letter-spacing: .02em; line-height: 1.7; }
-.resultado .nota { margin-top: 1.5rem; max-width: 34ch; }
-.resultado .cta { margin-top: 1.75rem; font-size: 1.02rem; text-align: left; }
-
-@media (min-width: 48rem) {
-  .calc-cab { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .calc-cab .titulo { grid-column: 1 / 8; }
-  .calc-cab .lead { grid-column: 9 / 13; align-self: end; }
-}
-@media (min-width: 64rem) {
-  .calc { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .calc-campos { grid-column: 1 / 7; }
-  .resultado { grid-column: 8 / 13; position: sticky; top: calc(var(--topo-h) + 1.5rem); }
-}
-
-/* ==========================================================================
-   FL. 07 — VALORES DOS SERVIÇOS DE PROJETO (tabela editorial)
-   ========================================================================== */
-.valores-cab { display: grid; gap: 1.5rem; margin-bottom: clamp(2.5rem, 5vw, 4rem); }
-.tabela { width: 100%; border-collapse: collapse; }
-.tabela caption { text-align: left; padding-bottom: .75rem; color: var(--grafite); caption-side: top; }
-.tabela thead th { text-align: left; font-weight: 400; color: var(--grafite); padding: .7rem 1rem .7rem 0; border-bottom: 1px solid var(--tinta); border-top: 1px solid var(--tinta); }
-.tabela tbody th, .tabela td { text-align: left; vertical-align: top; padding: 1.6rem 1rem 1.6rem 0; border-bottom: var(--fio); font-weight: 400; }
-.tabela .t-servico { font-family: var(--f-titulo); font-weight: 300; font-size: clamp(1.6rem, 2.6vw, 2.3rem); line-height: 1.05; letter-spacing: -.02em; }
-.tabela .t-valor { font-family: var(--f-mono); font-size: .9rem; white-space: nowrap; }
-.tabela .t-valor strong { display: block; font-family: var(--f-titulo); font-weight: 400; font-size: 1.6rem; letter-spacing: -.01em; }
-.tabela .t-inclui { color: var(--grafite); max-width: 40ch; }
-.tabela tr.is-destaque > * { background: var(--cal); }
-.tabela tr.is-destaque > :first-child { box-shadow: inset 2px 0 0 var(--ferro); padding-left: 1rem; }
-.etiqueta {
-  display: inline-block; margin-bottom: .6rem;
-  padding: .2rem .45rem;
-  border: 1px solid var(--ferro); color: var(--ferro);
-  font-size: .62rem;
-}
-.valores-nota { margin-top: 2rem; }
-
-@media (max-width: 47.99rem) {
-  .tabela thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-  .tabela, .tabela caption, .tabela tbody, .tabela tr, .tabela th, .tabela td { display: block; width: 100%; }
-  .tabela tr { padding: 1.4rem 0; border-bottom: var(--fio); }
-  .tabela tr:first-child { border-top: 1px solid var(--tinta); }
-  .tabela tbody th, .tabela td { border: 0; padding: .25rem 0; }
-  .tabela td::before { content: attr(data-rotulo); display: block; font-family: var(--f-mono); font-size: .64rem; letter-spacing: .06em; text-transform: uppercase; color: var(--grafite); margin-top: .7rem; }
-  .tabela tr.is-destaque { background: var(--cal); padding-inline: 1rem; box-shadow: inset 2px 0 0 var(--ferro); }
-  .tabela tr.is-destaque > :first-child { box-shadow: none; padding-left: 0; }
-}
-@media (min-width: 48rem) {
-  .valores-cab { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .valores-cab .titulo { grid-column: 1 / 9; }
-  .valores-cab .nota { grid-column: 10 / 13; align-self: end; }
-  .tabela thead th:first-child { width: 38%; }
-  .tabela thead th:nth-child(2) { width: 22%; }
-  .valores-nota { margin-left: 38%; }
-}
-
-/* ==========================================================================
-   FL. 08 — QUEM CONTRATOU (depoimentos + imprensa)
-   ========================================================================== */
-.dep-wrap { display: grid; gap: 2rem; }
-.dep-palco { display: grid; position: relative; }
-.dep {
-  grid-area: 1 / 1;
-  visibility: hidden; opacity: 0;
-  transition: opacity var(--t-media) var(--ease), visibility 0s linear var(--t-media), translate var(--t-media) var(--ease);
-  translate: 0 .75rem;
-}
-.dep.is-ativo { visibility: visible; opacity: 1; translate: 0 0; transition-delay: 0s; }
-.dep blockquote p {
-  font-family: var(--f-titulo); font-weight: 300;
-  font-size: clamp(1.9rem, 4.6vw, 4.1rem); line-height: 1.06; letter-spacing: -.025em;
-  text-wrap: balance;
-  position: relative;
-}
-.dep blockquote p::before { content: "“"; color: var(--ferro); position: absolute; right: 100%; padding-right: .04em; }
-.dep blockquote p::after { content: "”"; color: var(--ferro); }
-.dep figcaption { margin-top: 2rem; display: flex; gap: .3rem 1rem; flex-wrap: wrap; align-items: baseline; }
-.dep figcaption strong { font-weight: 500; }
-.dep figcaption .mono { color: var(--grafite); }
-.dep-controles { display: flex; align-items: center; gap: 1.25rem; padding-top: 1rem; border-top: var(--fio); }
-.dep-btn {
-  display: grid; place-items: center;
-  width: 2.75rem; height: 2.75rem;
-  background: none; border: 1px solid var(--tinta); border-radius: var(--raio);
-  cursor: pointer;
-  transition: background-color var(--t-curta), color var(--t-curta);
-}
-.dep-btn:hover { background: var(--tinta); color: var(--papel); }
-.dep-btn svg { width: 18px; height: 10px; }
-.dep-btn path { stroke: currentColor; fill: none; stroke-width: 1.2; }
-.dep-contador { font-size: .85rem; min-width: 6ch; text-align: center; }
-.dep-contador b { font-weight: 500; color: var(--tinta); }
-
-.imprensa { margin-top: clamp(4rem, 8vw, 7rem); }
-.imprensa-lista {
-  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
-  border-top: 1px solid var(--tinta);
-}
-.imprensa-lista li {
-  display: grid; place-items: center start;
-  min-height: 6.5rem;
-  padding: 1rem 1rem 1rem 0;
-  border-bottom: var(--fio);
-  color: var(--grafite);
-}
-.marca-revista { font-family: var(--f-titulo); font-style: italic; font-weight: 400; font-size: 1.35rem; letter-spacing: -.02em; line-height: 1; }
-.marca-revista b { display: block; font-style: normal; font-weight: 500; font-size: .6em; letter-spacing: .3em; text-transform: uppercase; margin-bottom: .3rem; }
-.marca-premio { font-family: var(--f-mono); font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; border: 1px solid currentColor; padding: .45rem .6rem; line-height: 1.35; text-align: center; }
-.marca-premio b { display: block; font-weight: 500; font-size: 1.35rem; letter-spacing: .02em; }
-.marca-madeireira { font-family: var(--f-texto); font-weight: 500; font-size: 1.05rem; letter-spacing: .18em; text-transform: uppercase; line-height: 1.1; }
-.marca-madeireira span { display: block; font-weight: 400; font-size: .62rem; letter-spacing: .5em; border-top: 1px solid currentColor; padding-top: .3rem; margin-top: .3rem; }
-.marca-ceramica { font-family: var(--f-titulo); font-weight: 400; font-size: 1.25rem; font-variant: small-caps; letter-spacing: .08em; }
-.marca-ceramica::before { content: ""; display: inline-block; width: .7em; height: .7em; border: 1px solid currentColor; rotate: 45deg; margin-right: .55em; translate: 0 -.08em; }
-
-@media (min-width: 48rem) {
-  .imprensa-lista { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-  .imprensa-lista li { padding-left: 1.25rem; border-left: var(--fio); }
-  .imprensa-lista li:first-child { padding-left: 0; border-left: 0; }
-}
-@media (min-width: 64rem) {
-  .dep-wrap { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .dep-palco { grid-column: 2 / 12; }
-  .dep-controles { grid-column: 2 / 12; }
-}
-
-/* ==========================================================================
-   FL. 09 — O ESTÚDIO (equipe)
-   ========================================================================== */
-.estudio-cab { display: grid; gap: 1.5rem; margin-bottom: clamp(3rem, 6vw, 5rem); }
-.equipe { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem var(--gap); }
-.pessoa .ph {
-  --ar: 3 / 4;
-  filter: grayscale(1) contrast(1.05);
-  transition: filter var(--t-longa) var(--ease);
-}
-.pessoa:hover .ph, .pessoa:focus-within .ph { filter: none; }
-.pessoa-nome { font-family: var(--f-titulo); font-weight: 400; font-size: 1.35rem; letter-spacing: -.015em; line-height: 1.1; margin-top: 1rem; }
-.pessoa-cargo { color: var(--grafite); margin-top: .35rem; text-transform: none; letter-spacing: .02em; }
-.pessoa-nota { margin-top: .8rem; font-size: 1rem; max-width: 30ch; }
-.pessoa:first-child { grid-column: 1 / -1; }
-
-@media (min-width: 48rem) {
-  .estudio-cab { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .estudio-cab .titulo { grid-column: 1 / 8; }
-  .estudio-cab .lead { grid-column: 9 / 13; align-self: end; }
-  .equipe { grid-template-columns: repeat(12, minmax(0, 1fr)); }
-  .pessoa { grid-column: span 4; }
-  .pessoa:nth-child(1) { grid-column: 1 / 7; }
-  .pessoa:nth-child(2) { grid-column: 8 / 13; margin-top: 8rem; }
-}
-@media (min-width: 64rem) {
-  .pessoa:nth-child(1) { grid-column: 1 / 6; }
-  .pessoa:nth-child(2) { grid-column: 7 / 10; margin-top: 10rem; }
-  .pessoa:nth-child(3) { grid-column: 10 / 13; margin-top: 18rem; }
-  .pessoa:nth-child(4) { grid-column: 2 / 5; margin-top: -2rem; }
-  .pessoa:nth-child(5) { grid-column: 6 / 9; margin-top: 4rem; }
-  .pessoa:nth-child(4) .ph, .pessoa:nth-child(5) .ph { --ar: 4 / 5; }
-}
-
-/* ==========================================================================
-   FL. 10 — PERGUNTAS FREQUENTES
-   ========================================================================== */
-.faq-grid { display: grid; gap: 2.5rem; }
-.faq-lista { border-top: 1px solid var(--tinta); }
-.faq-item { border-bottom: var(--fio); }
-.faq-item summary {
-  list-style: none; cursor: pointer;
-  display: grid; grid-template-columns: 2.4rem 1fr 1.1rem; gap: .75rem; align-items: baseline;
-  padding-block: 1.3rem;
-  font-family: var(--f-titulo); font-weight: 400; font-size: clamp(1.2rem, 2vw, 1.55rem); line-height: 1.25; letter-spacing: -.01em;
-}
-.faq-item summary::-webkit-details-marker { display: none; }
-.faq-item summary .mono { color: var(--grafite); font-family: var(--f-mono); }
-.faq-item summary:hover { color: var(--ferro); }
-.faq-item .servico-sinal { grid-column: 3; }
-.faq-item[open] .servico-sinal::after { scale: 0 1; }
-.faq-resposta { padding: 0 1.85rem 1.75rem 3.15rem; max-width: 66ch; color: var(--tinta); }
-.faq-resposta p + p { margin-top: .8rem; }
-
-@media (min-width: 64rem) {
-  .faq-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .faq-cab { grid-column: 1 / 5; display: grid; gap: 2rem; align-content: start; }
-  .faq-lista { grid-column: 6 / 13; }
-}
-
-/* ==========================================================================
-   FL. 11 — CONTATO
-   ========================================================================== */
-.contato-grid { display: grid; gap: 4rem; }
-.contato-titulo { font-size: clamp(2.8rem, 8vw, 6.5rem); }
-.contato-dados { margin-top: 2.5rem; display: grid; grid-template-columns: minmax(6.5rem, auto) 1fr; border-top: 1px solid var(--tinta); }
-.contato-dados dt, .contato-dados dd { padding-block: .65rem; border-bottom: var(--fio); }
-.contato-dados dt { color: var(--grafite); padding-right: 1rem; }
-.contato-dados a { text-decoration-color: var(--sal); }
-.contato-dados a:hover { color: var(--ferro); text-decoration-color: currentColor; }
-
-.mapa-fig { margin-top: 2.5rem; }
-.mapa { width: 100%; height: auto; aspect-ratio: 640 / 420; border: 1px solid var(--tinta); border-radius: var(--raio); background: var(--cal); }
-.mapa .agua-linha { stroke: color-mix(in srgb, #4E7590 45%, transparent); stroke-width: 1; }
-.mapa .costa { fill: none; stroke: var(--tinta); stroke-width: 1.2; }
-.mapa .mar { fill: url(#agua); }
-.mapa .quadra { fill: none; stroke: var(--sal); stroke-width: 1; }
-.mapa .rua { fill: none; stroke: var(--grafite); stroke-width: 1; }
-.mapa .rua--principal { stroke: var(--tinta); stroke-width: 2.5; }
-.mapa .rotulo { font-family: var(--f-mono); font-size: 9px; letter-spacing: .08em; fill: var(--grafite); text-transform: uppercase; }
-.mapa .rotulo--mar { font-family: var(--f-titulo); font-style: italic; font-size: 15px; letter-spacing: .02em; text-transform: none; fill: color-mix(in srgb, #4E7590 90%, var(--tinta)); }
-.mapa .rotulo--bairro { font-size: 10px; letter-spacing: .4em; fill: var(--tinta); }
-.mapa .ponto { fill: var(--ferro); }
-.mapa .ponto-anel { fill: none; stroke: var(--ferro); stroke-width: 1; }
-.mapa .chamada { stroke: var(--tinta); stroke-width: 1; fill: none; }
-.mapa .chamada-caixa { fill: var(--papel); stroke: var(--tinta); stroke-width: 1; }
-.mapa .chamada-txt { font-family: var(--f-mono); font-size: 9.5px; fill: var(--tinta); letter-spacing: .05em; }
-.mapa .chamada-txt--forte { font-family: var(--f-titulo); font-size: 14px; letter-spacing: 0; }
-.mapa .norte path, .mapa .escala rect { stroke: var(--tinta); stroke-width: 1; fill: none; }
-.mapa .norte .cheio, .mapa .escala .cheio { fill: var(--tinta); }
-.mapa .norte text { font-family: var(--f-titulo); font-size: 13px; fill: var(--tinta); }
-.mapa-fig figcaption { margin-top: .7rem; color: var(--grafite); font-size: .92rem; }
-
-/* Formulário — campos sublinhados, sem caixas */
-.form { display: grid; gap: 2rem; align-content: start; }
-.form-cab { color: var(--grafite); display: flex; justify-content: space-between; padding-bottom: .6rem; border-bottom: 1px solid var(--tinta); }
-.campo { position: relative; display: grid; gap: .3rem; }
-.campo label { color: var(--grafite); font-family: var(--f-mono); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; }
-.campo label .opc { text-transform: none; letter-spacing: .02em; }
-.campo input, .campo select, .campo textarea {
-  width: 100%;
-  padding: .45rem 0 .6rem;
-  background: transparent;
-  border: 0; border-bottom: 1px solid var(--tinta); border-radius: 0;
-  color: var(--tinta);
-  font-family: var(--f-titulo); font-weight: 300; font-size: 1.45rem; letter-spacing: -.01em;
-  transition: border-color var(--t-curta), box-shadow var(--t-curta);
-}
-.campo textarea { resize: vertical; min-height: 6.5rem; font-size: 1.2rem; line-height: 1.4; }
-.campo select { -webkit-appearance: none; appearance: none; cursor: pointer; padding-right: 2rem; }
-.campo select option { font-family: var(--f-texto); font-size: 1rem; background: var(--papel); color: var(--tinta); }
-.campo--select::after {
-  content: ""; position: absolute; right: .3rem; bottom: 1.15rem;
-  width: 8px; height: 8px;
-  border-right: 1px solid var(--tinta); border-bottom: 1px solid var(--tinta);
-  rotate: 45deg; pointer-events: none;
-}
-.campo input::placeholder, .campo textarea::placeholder { color: color-mix(in srgb, var(--grafite) 75%, transparent); }
-.campo input:focus, .campo select:focus, .campo textarea:focus { outline: none; border-bottom-color: var(--ferro); box-shadow: 0 1px 0 0 var(--ferro); }
-.campo input:focus-visible, .campo select:focus-visible, .campo textarea:focus-visible { outline: none; }
-.campo.is-erro input, .campo.is-erro select, .campo.is-erro textarea { border-bottom-color: var(--ferro); border-bottom-style: dashed; }
-.campo-erro {
-  min-height: 0;
-  font-family: var(--f-titulo); font-style: italic; font-weight: 400; font-size: 1rem;
-  color: var(--ferro);
-}
-.campo-erro:empty { display: none; }
-.campo.is-ok label::after { content: " · ok"; color: var(--tinta); }
-.form-duplo { display: grid; gap: 2rem; }
-.form-acoes { display: flex; flex-wrap: wrap; gap: 1rem 2rem; align-items: center; justify-content: space-between; padding-top: .5rem; }
-.form-acoes .cta { font-size: 1.15rem; }
-.form-aviso { color: var(--grafite); font-size: .85rem; max-width: 36ch; }
-.form-status { font-family: var(--f-titulo); font-style: italic; color: var(--ferro); }
-.form-status:empty { display: none; }
-.sucesso {
-  padding: 2rem 0;
-  border-top: 1px solid var(--tinta);
-}
-.sucesso:focus { outline: none; }
-.sucesso p:first-child { font-family: var(--f-titulo); font-weight: 300; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.05; letter-spacing: -.02em; }
-.sucesso p + p { margin-top: 1rem; color: var(--grafite); }
-
-@media (min-width: 40rem) {
-  .form-duplo { grid-template-columns: 1fr 1fr; column-gap: var(--gap); }
-}
-@media (min-width: 64rem) {
-  .contato-grid { grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); }
-  .contato-info { grid-column: 1 / 6; }
-  .form, .sucesso { grid-column: 7 / 13; grid-row: 1; margin-top: 1.5rem; }
-}
-
-/* ==========================================================================
-   RODAPÉ — CARIMBO DE PRANCHA
-   ========================================================================== */
-.rodape { padding-block: 2rem 2.5rem; }
-.carimbo {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1px;
-  background: var(--tinta);
-  border: 1px solid var(--tinta);
-  border-radius: var(--raio);
-}
-.carimbo > * { background: var(--papel); padding: .75rem .9rem; min-width: 0; }
-.carimbo .c-rot { display: block; color: var(--grafite); font-size: .6rem; margin-bottom: .3rem; }
-.carimbo .c-val { font-size: .92rem; line-height: 1.35; }
-.c-marca { grid-column: 1 / -1; padding-block: 1.25rem; }
-.c-marca .logo { font-size: clamp(2rem, 5vw, 3.2rem); display: inline-block; line-height: 1; }
-.c-marca p { margin-top: .5rem; color: var(--grafite); }
-.c-resp, .c-links, .c-redes, .c-priv, .c-calma, .c-tema { grid-column: 1 / -1; }
-.c-links ul, .c-redes ul { display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; }
-.c-links a, .c-redes a { font-size: .92rem; }
-.c-links a:hover, .c-redes a:hover { color: var(--ferro); }
-.c-priv details summary { cursor: pointer; font-size: .92rem; text-decoration: underline; text-underline-offset: .25em; text-decoration-color: var(--sal); }
-.c-priv details p { margin-top: .6rem; font-size: .86rem; color: var(--grafite); max-width: 60ch; }
-.c-calma { font-family: var(--f-titulo); font-style: italic; font-weight: 300; font-size: 1.2rem; }
-.tema-btn { background: none; border: 0; padding: 0; cursor: pointer; font-size: .92rem; text-decoration: underline; text-underline-offset: .25em; text-decoration-color: var(--sal); }
-.tema-btn:hover { color: var(--ferro); }
-.rodape-fim { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem 1rem; margin-top: 1rem; color: var(--grafite); }
-
-@media (min-width: 64rem) {
-  .carimbo { grid-template-columns: 2.2fr repeat(4, minmax(0, 1fr)) 1.3fr; }
-  .c-marca { grid-column: 1; grid-row: 1 / 4; display: flex; flex-direction: column; justify-content: space-between; }
-  .c-resp { grid-column: 2 / 5; }
-  .c-links { grid-column: 2 / 4; }
-  .c-redes { grid-column: 4 / 6; }
-  .c-priv { grid-column: 5 / 7; grid-row: 2; }
-  .c-calma { grid-column: 6 / 7; grid-row: 3; display: flex; align-items: end; }
-  .c-tema { grid-column: 6; grid-row: 1; }
-}
-
-/* ==========================================================================
-   CURSOR PERSONALIZADO (desktop, sem reduced-motion)
-   ========================================================================== */
-.tem-cursor, .tem-cursor a, .tem-cursor button, .tem-cursor summary, .tem-cursor label, .tem-cursor .ba, .tem-cursor .ba-alca { cursor: none; }
-.tem-cursor input, .tem-cursor textarea, .tem-cursor select { cursor: auto; }
-.cursor {
-  position: fixed; left: 0; top: 0; z-index: 300;
-  width: 64px; height: 64px; margin: -32px 0 0 -32px;
-  pointer-events: none;
-}
-.cursor-disco {
-  position: absolute; inset: 0;
-  display: grid; place-items: center;
-  border-radius: 50%;
-  background: var(--tinta);
-  scale: .125;
-  transition: scale var(--t-media) var(--ease), background-color var(--t-curta), opacity var(--t-curta);
-}
-.cursor-disco span { font: 500 .62rem/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--papel); opacity: 0; transition: opacity var(--t-curta); }
-.cursor.is-link .cursor-disco { scale: .3; background: var(--ferro); }
-.cursor.is-arraste .cursor-disco { scale: 1; }
-.cursor.is-arraste .cursor-disco span { opacity: 1; transition-delay: 100ms; }
-.cursor.is-oculto .cursor-disco { opacity: 0; }
-
-/* Reduced motion: desliga o não essencial */
-@media (prefers-reduced-motion: reduce) {
-  .topo, .servico summary, .servico-nome, .ph, .dep, .etapa, .cta, .cta .seta { transition: none; }
-}
-
-/* Impressão: a prancha deve sair limpa */
-@media print {
-  .topo, .cursor, .segue, .menu, .painel, body::before { display: none !important; }
-  .rv { opacity: 1 !important; translate: none !important; }
-}
-</style>
 </head>
 
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 
 <!-- ======================================================================
-     FL. 00 — CABEÇALHO
+     CABEÇALHO (igual em todas as folhas)
      ====================================================================== -->
 <header class="topo" id="topo">
   <div class="wrap topo-in">
-    <a class="logo" href="#inicio" aria-label="Ferro &amp; Sal — voltar ao início">Ferro <em>&amp;</em> Sal</a>
-    <p class="topo-fl mono" aria-live="off">
-      <span class="topo-fl-num" id="fl-num">FL. 01/11</span>
-      <span class="topo-fl-nome" id="fl-nome">Início</span>
-    </p>
-    <nav class="nav" aria-label="Principal">
-      <ul role="list">
-        <li><a href="#estudio" data-nav="estudio">Estúdio</a></li>
-        <li><a href="#obras" data-nav="obras">Obras</a></li>
-        <li><a href="#processo" data-nav="processo">Processo</a></li>
-        <li><a href="#valores" data-nav="valores">Valores</a></li>
-        <li><a href="#contato" data-nav="contato">Contato</a></li>
-      </ul>
-    </nav>
+    <a class="logo" href="index.html" aria-label="Ferro &amp; Sal — página inicial">Ferro <em>&amp;</em> Sal</a>
+    <p class="topo-fl mono"><span class="topo-fl-num">FL. 01/08</span><span class="topo-fl-nome" id="fl-nome">Início</span></p>
+    <nav class="nav" aria-label="Principal"><ul role="list"><li><a href="estudio.html">Estúdio</a></li><li><a href="servicos.html">Serviços</a></li><li><a href="obras.html">Obras</a></li><li><a href="processo.html">Processo</a></li><li><a href="valores.html">Valores</a></li><li><a href="contato.html">Contato</a></li></ul></nav>
     <div class="topo-dir">
-      <p class="topo-clima mono">Natal, <span id="clima">27°C</span> — <time id="hora">14:32</time></p>
-      <a class="cta topo-cta" href="#contato">Iniciar uma conversa</a>
-      <button class="menu-btn mono" type="button" aria-haspopup="dialog" aria-controls="menu" id="menu-abrir">
-        Menu <span class="menu-btn-linhas" aria-hidden="true"></span>
-      </button>
+      <p class="topo-clima mono">Natal, <span id="clima">27°C</span> — <time id="hora">--:--</time></p>
+      <a class="cta topo-cta" href="contato.html">Iniciar uma conversa</a>
+      <button class="menu-btn mono" type="button" aria-haspopup="dialog" aria-controls="menu" id="menu-abrir">Menu <span class="menu-btn-linhas" aria-hidden="true"></span></button>
     </div>
   </div>
 </header>
 
-<!-- Menu mobile em tela cheia -->
 <dialog class="menu" id="menu" aria-label="Menu">
   <div class="menu-in wrap">
     <div class="menu-topo">
       <span class="logo">Ferro <em>&amp;</em> Sal</span>
       <button class="menu-fechar mono" type="button" id="menu-fechar">Fechar</button>
     </div>
-    <ul class="menu-lista" role="list">
-      <li><a href="#estudio"><span class="mono">FL. 09</span>Estúdio</a></li>
-      <li><a href="#obras"><span class="mono">FL. 04</span>Obras</a></li>
-      <li><a href="#processo"><span class="mono">FL. 05</span>Processo</a></li>
-      <li><a href="#valores"><span class="mono">FL. 07</span>Valores</a></li>
-      <li><a href="#contato"><span class="mono">FL. 11</span>Contato</a></li>
-    </ul>
+    <ul class="menu-lista" role="list"><li><a href="index.html" aria-current="page"><span class="mono">FL. 01</span>Início</a></li><li><a href="estudio.html"><span class="mono">FL. 02</span>Estúdio</a></li><li><a href="servicos.html"><span class="mono">FL. 03</span>Serviços</a></li><li><a href="obras.html"><span class="mono">FL. 04</span>Obras</a></li><li><a href="processo.html"><span class="mono">FL. 05</span>Processo</a></li><li><a href="valores.html"><span class="mono">FL. 06</span>Valores</a></li><li><a href="perguntas.html"><span class="mono">FL. 07</span>Perguntas</a></li><li><a href="contato.html"><span class="mono">FL. 08</span>Contato</a></li></ul>
     <div class="menu-rodape mono">
       <a href="https://wa.me/5584991880412">WhatsApp (84) 99188-0412</a>
       <span>seg a sex, 8h às 18h · sáb, 8h às 12h</span>
@@ -1443,59 +139,43 @@ button { font: inherit; color: inherit; }
 
 <main id="conteudo">
 
-<!-- ======================================================================
-     FL. 01 — HERO
-     ====================================================================== -->
-<section class="hero" id="inicio" data-fl="01" data-titulo="Início" aria-labelledby="hero-titulo">
+<!-- FL. 01 · A — HERO -->
+<section class="hero" data-secao="Início" aria-labelledby="hero-titulo">
   <div class="wrap g12">
     <h1 class="hero-titulo" id="hero-titulo">
       <span class="linha"><span>Casas que</span></span>
       <span class="linha"><span><em>envelhecem</em> bem.</span></span>
     </h1>
-
     <div class="hero-texto">
       <p class="lead">Projetamos e executamos reformas no litoral potiguar há 12 anos. Pouca obra por vez, acompanhada de perto, com material que aguenta maresia.</p>
-      <p><a class="cta" href="#obras">Ver as obras <span class="seta" aria-hidden="true">→</span></a></p>
+      <p class="acoes"><a class="cta" href="obras.html">Ver as obras <span class="seta" aria-hidden="true">→</span></a><a class="cta" href="processo.html">Como trabalhamos <span class="seta" aria-hidden="true">→</span></a></p>
     </div>
-
     <figure class="hero-figura">
       <div class="hero-cotas">
         <div class="cota cota--h hero-cota-h" data-cota="2,72 m" aria-hidden="true"></div>
         <div class="cota cota--v hero-cota-v" data-cota="3,40 m" aria-hidden="true"></div>
-        <!-- TROCAR: foto 4:5 da Casa Pitangui (mín. 1200×1500) -->
-        <div class="ph" style="--tom:#D8CDBB" data-ph="FOTO 4:5 · Sala da Casa Pitangui: forro de madeira, venezianas de cumaru abertas, luz da tarde entrando de lado. Sem gente.">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1200" height="1500" fetchpriority="high" alt="Sala da Casa Pitangui depois da reforma, com forro de madeira e venezianas abertas para o vento leste.">
-        </div>
+        <div class="foto"><img src="assets/img/hero-bangalo-1600.webp" srcset="assets/img/hero-bangalo-800.webp 600w, assets/img/hero-bangalo-1600.webp 1067w" sizes="(min-width: 64rem) 40vw, 100vw" width="1067" height="1600" fetchpriority="high" decoding="async" alt="Interior de bangalô de madeira com porta aberta para a vegetação e poltrona clara junto à janela"></div>
       </div>
-      <figcaption class="legenda mono">
-        <span>Casa Pitangui, 2024 — 142 m² — reforma integral</span>
-        <span>Fig. 01</span>
-      </figcaption>
+      <figcaption class="legenda mono"><span>Casa Pitangui, 2024 — 142 m² — reforma integral</span><span>Fig. 01</span></figcaption>
     </figure>
   </div>
-
   <div class="wrap">
     <div class="hero-rodape mono">
       <p><strong data-conta="186">186</strong> obras · <strong><span data-conta="94">94</span>%</strong> no prazo · desde <strong>2014</strong></p>
-      <p aria-hidden="true">Continua na FL. 02 ↓</p>
+      <p aria-hidden="true">Continua na FL. 01 · B ↓</p>
     </div>
   </div>
 </section>
 
-<!-- ======================================================================
-     FL. 02 — MANIFESTO
-     ====================================================================== -->
-<section class="secao manifesto" id="manifesto" data-fl="02" data-titulo="Manifesto" aria-labelledby="manifesto-titulo">
+<!-- FL. 01 · B — MANIFESTO -->
+<section class="secao" data-secao="Manifesto" aria-labelledby="manifesto-titulo">
   <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 02/11</span><span id="manifesto-titulo">Manifesto</span><span class="folha-meta">Texto corrido · sem escala</span>
-    </div>
-
+    <div class="folha mono"><span class="fl">FL. 01 · B</span><span id="manifesto-titulo">Manifesto</span><span class="folha-meta">Texto corrido · sem escala</span></div>
     <div class="g12">
       <p class="manifesto-texto" data-palavras>A gente acredita que uma boa reforma é aquela que você <em>esquece</em> que fez. A porta não empena, o reboco não descasca, a conta de luz não assusta. Por isso pegamos no máximo seis obras por vez, e o mesmo arquiteto que desenha é o que visita o canteiro.</p>
       <p class="nota manifesto-nota rv">— Helena, numa reunião de 2016, e desde então é regra.</p>
+      <p class="manifesto-link rv"><a class="cta" href="estudio.html">Conheça o estúdio e as cinco pessoas por trás disso <span class="seta" aria-hidden="true">→</span></a></p>
     </div>
-
     <dl class="numeros rv">
       <div class="numeros-cab mono"><span>Quadro de números</span><span>2014–2026</span></div>
       <div><dt>obras entregues, de banheiro a pousada</dt><dd data-conta="186">186</dd></div>
@@ -1508,503 +188,93 @@ button { font: inherit; color: inherit; }
   </div>
 </section>
 
-<!-- ======================================================================
-     FL. 03 — O QUE FAZEMOS
-     ====================================================================== -->
-<section class="secao" id="servicos" data-fl="03" data-titulo="O que fazemos" aria-labelledby="servicos-titulo">
+<!-- FL. 01 · C — O QUE FAZEMOS -->
+<section class="secao" data-secao="O que fazemos" aria-labelledby="servicos-titulo">
   <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 03/11</span><span>O que fazemos</span><span class="folha-meta">5 serviços · clique para abrir</span>
-    </div>
-
-    <div class="servicos-cab">
+    <div class="folha mono"><span class="fl">FL. 01 · C</span><span>O que fazemos</span><span class="folha-meta">5 serviços · detalhes na FL. 03</span></div>
+    <div class="cab-secao">
       <h2 class="titulo rv" id="servicos-titulo">Cinco coisas que a gente faz <em>direito</em>.</h2>
       <p class="nota rv">Se não está na lista, provavelmente indicamos alguém melhor.</p>
     </div>
-
-    <ol class="servicos" role="list">
-      <li>
-        <details class="servico" name="servicos" data-tom="#C9B79C" data-rotulo="01 · Casa Pitangui, sala">
-          <summary>
-            <span class="servico-n mono">01</span>
-            <span class="servico-nome">Reforma residencial completa</span>
-            <span class="servico-resumo">Do projeto à entrega da chave.</span>
-            <span class="servico-sinal" aria-hidden="true"></span>
-          </summary>
-          <div class="servico-corpo">
-            <p>A gente desenha, orça, contrata, compra e executa. Você conversa com uma pessoa só do começo ao fim, recebe o diário toda sexta e, no último dia, a chave e o manual da casa.</p>
-            <p class="mono">Prazo típico: 4 a 8 meses<br>Para casas e apartamentos a partir de 50 m²<br>Garantia: 5 anos estrutural, 1 ano acabamento</p>
-          </div>
-        </details>
-      </li>
-      <li>
-        <details class="servico" name="servicos" data-tom="#BFC3B8" data-rotulo="02 · Prancha de detalhamento">
-          <summary>
-            <span class="servico-n mono">02</span>
-            <span class="servico-nome">Projeto de arquitetura e interiores</span>
-            <span class="servico-resumo">Sem execução, para quem já tem equipe.</span>
-            <span class="servico-sinal" aria-hidden="true"></span>
-          </summary>
-          <div class="servico-corpo">
-            <p>Entregamos o executivo detalhado a ponto do seu empreiteiro não precisar adivinhar nada: paginação de piso, cortes de marcenaria, cada ponto elétrico cotado. Incluímos duas visitas de obra para tirar dúvida no canteiro.</p>
-            <p class="mono">Prazo típico: 6 a 10 semanas<br>A partir de R$ 95/m² (interiores)<br>A partir de R$ 140/m² (completo)</p>
-          </div>
-        </details>
-      </li>
-      <li>
-        <details class="servico" name="servicos" data-tom="#B5BFA6" data-rotulo="03 · Brise de madeira, fachada oeste">
-          <summary>
-            <span class="servico-n mono">03</span>
-            <span class="servico-nome">Retrofit para clima quente</span>
-            <span class="servico-resumo">Ventilação cruzada, brises, telhado verde, troca de esquadrias.</span>
-            <span class="servico-sinal" aria-hidden="true"></span>
-          </summary>
-          <div class="servico-corpo">
-            <p>Natal tem vento quase o ano inteiro, e a maioria das casas foi construída de costas para ele. Reabrimos o caminho do ar, sombreamos a fachada que pega sol da tarde e medimos a conta de luz antes e depois. Sem medição, é só opinião.</p>
-            <p class="mono">Economia média: 31% (medida em 40 obras)<br>Recorde: 38%, Pousada Maracajaú</p>
-          </div>
-        </details>
-      </li>
-      <li>
-        <details class="servico" name="servicos" data-tom="#C7AE9A" data-rotulo="04 · Café Cardume, 3h da manhã">
-          <summary>
-            <span class="servico-n mono">04</span>
-            <span class="servico-nome">Reforma comercial</span>
-            <span class="servico-resumo">Lojas, consultórios e restaurantes, com obra noturna para não fechar as portas.</span>
-            <span class="servico-sinal" aria-hidden="true"></span>
-          </summary>
-          <div class="servico-corpo">
-            <p>Quando o negócio não pode parar, a obra vira noturna: a equipe entra às 22h, sai às 6h e deixa o salão varrido para abrir. O pó fica atrás de divisória, a máquina de café fica coberta e o cliente da manhã não percebe nada além do piso novo.</p>
-            <p class="mono">Recorde: 41 noites seguidas, Café Cardume<br>Dias de faturamento perdidos: 0</p>
-          </div>
-        </details>
-      </li>
-      <li>
-        <details class="servico" name="servicos" data-tom="#BDB6AA" data-rotulo="05 · Vistoria, fissura em platibanda">
-          <summary>
-            <span class="servico-n mono">05</span>
-            <span class="servico-nome">Laudo e manutenção preventiva</span>
-            <span class="servico-resumo">Vistoria anual, plano de manutenção de 5 anos.</span>
-            <span class="servico-sinal" aria-hidden="true"></span>
-          </summary>
-          <div class="servico-corpo">
-            <p>Uma visita por ano, com laudo assinado e um plano para os próximos cinco: o que pintar, o que vedar, o que trocar e quando. Maresia não perdoa quem esquece. Serve para casas nossas e de outros, inclusive as que você acabou de comprar.</p>
-            <p class="mono">Vistoria anual com relatório fotográfico<br>Plano de manutenção de 5 anos<br>ART/RRT emitida</p>
-          </div>
-        </details>
-      </li>
-    </ol>
+    <ol class="lista-servicos" role="list"><li><a href="servicos.html#residencial" data-foto="assets/img/servico-residencial-800.webp">
+          <span class="ls-n mono">01</span><span class="ls-nome">Reforma residencial completa</span><span class="ls-resumo">Do projeto à entrega da chave.</span><span class="ls-seta" aria-hidden="true">→</span></a></li><li><a href="servicos.html#projeto" data-foto="assets/img/processo-estudo-800.webp">
+          <span class="ls-n mono">02</span><span class="ls-nome">Projeto de arquitetura e interiores</span><span class="ls-resumo">Sem execução, para quem já tem equipe.</span><span class="ls-seta" aria-hidden="true">→</span></a></li><li><a href="servicos.html#retrofit" data-foto="assets/img/maracajau-venezianas-800.webp">
+          <span class="ls-n mono">03</span><span class="ls-nome">Retrofit para clima quente</span><span class="ls-resumo">Ventilação cruzada, brises, telhado verde, troca de esquadrias.</span><span class="ls-seta" aria-hidden="true">→</span></a></li><li><a href="servicos.html#comercial" data-foto="assets/img/cardume-depois-800.webp">
+          <span class="ls-n mono">04</span><span class="ls-nome">Reforma comercial</span><span class="ls-resumo">Lojas, consultórios e restaurantes, com obra noturna para não fechar as portas.</span><span class="ls-seta" aria-hidden="true">→</span></a></li><li><a href="servicos.html#manutencao" data-foto="assets/img/servico-laudo-800.webp">
+          <span class="ls-n mono">05</span><span class="ls-nome">Laudo e manutenção preventiva</span><span class="ls-resumo">Vistoria anual, plano de manutenção de 5 anos.</span><span class="ls-seta" aria-hidden="true">→</span></a></li></ol>
   </div>
-  <div class="segue" id="segue" aria-hidden="true"><div class="ph" data-ph=""></div></div>
+  <div class="segue" id="segue" aria-hidden="true"><div class="foto"><img src="assets/img/servico-residencial-800.webp" alt="" width="900" height="506"></div></div>
 </section>
 
-<!-- ======================================================================
-     FL. 04 — OBRAS SELECIONADAS
-     ====================================================================== -->
-<section class="secao" id="obras" data-fl="04" data-titulo="Obras" aria-labelledby="obras-titulo">
+<!-- FL. 01 · D — OBRAS EM DESTAQUE -->
+<section class="secao" data-secao="Obras" aria-labelledby="obras-titulo">
   <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 04/11</span><span>Obras selecionadas</span><span class="folha-meta">5 de 186 · arraste para comparar</span>
-    </div>
-
-    <div class="obras-cab">
+    <div class="folha mono"><span class="fl">FL. 01 · D</span><span>Obras em destaque</span><span class="folha-meta">3 de 186 · todas na FL. 04</span></div>
+    <div class="cab-secao">
       <h2 class="titulo rv" id="obras-titulo">Antes, depois e o que <em>ninguém</em> vê.</h2>
-      <p class="lead secundario rv">Cinco obras recentes. Arraste a linha sobre a foto para ver como era. Clique no nome para abrir a ficha técnica.</p>
+      <p class="lead secundario rv">Cada obra tem a sua folha, com ficha técnica, antes e depois e o que deu trabalho.</p>
     </div>
-
-    <div class="obras">
-      <!-- Obra 01 -->
-      <article class="obra obra--pitangui rv" aria-labelledby="obra-pitangui">
-        <div class="cota cota--h obra-cota" data-cota="11,80 m" aria-hidden="true"></div>
-        <div class="ba">
-          <!-- TROCAR: duas fotos com o mesmo enquadramento -->
-          <div class="ph ba-depois" data-ph="DEPOIS · Varanda com piso cerâmico do Seridó e venezianas de cumaru">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1600" height="1200" loading="lazy" alt="Depois: varanda da Casa Pitangui com piso cerâmico e venezianas de madeira.">
-          </div>
-          <div class="ph ba-antes" data-ph="ANTES · Esquadrias de ferro oxidadas, forro de PVC amarelado">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1600" height="1200" loading="lazy" alt="Antes: a mesma varanda com esquadrias de ferro enferrujadas e forro de PVC.">
-          </div>
-          <span class="ba-rotulo ba-rotulo--antes mono" aria-hidden="true">Antes</span>
-          <span class="ba-rotulo ba-rotulo--depois mono" aria-hidden="true">Depois</span>
-          <div class="ba-alca" role="slider" tabindex="0" aria-label="Comparar antes e depois — Casa Pitangui" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50% antes, 50% depois"></div>
-        </div>
-        <div class="obra-info">
-          <span class="obra-n mono">01</span>
-          <h3 class="obra-nome" id="obra-pitangui"><button type="button" data-obra="pitangui" aria-haspopup="dialog">Casa Pitangui</button></h3>
-          <p class="obra-meta mono">142 m² · 2024 · reforma integral · 7 meses</p>
-          <p class="obra-acoes"><button class="cta" type="button" data-obra="pitangui" aria-haspopup="dialog">Ficha técnica <span class="seta" aria-hidden="true">→</span><span class="sr-only"> da Casa Pitangui</span></button></p>
-        </div>
-      </article>
-
-      <!-- Obra 02 -->
-      <article class="obra obra--cardume rv" aria-labelledby="obra-cardume">
-        <div class="ba">
-          <div class="ph ba-depois" data-ph="DEPOIS · Balcão de concreto, granilite moldado no local">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1200" height="1600" loading="lazy" alt="Depois: salão do Café Cardume com balcão de concreto aparente e piso de granilite.">
-          </div>
-          <div class="ph ba-antes" data-ph="ANTES · Salão com porcelanato rachado e balcão de MDF">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1200" height="1600" loading="lazy" alt="Antes: o salão do café com piso rachado e balcão antigo.">
-          </div>
-          <span class="ba-rotulo ba-rotulo--antes mono" aria-hidden="true">Antes</span>
-          <span class="ba-rotulo ba-rotulo--depois mono" aria-hidden="true">Depois</span>
-          <div class="ba-alca" role="slider" tabindex="0" aria-label="Comparar antes e depois — Café Cardume" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50% antes, 50% depois"></div>
-        </div>
-        <div class="obra-info">
-          <span class="obra-n mono">02</span>
-          <h3 class="obra-nome" id="obra-cardume"><button type="button" data-obra="cardume" aria-haspopup="dialog">Café Cardume</button></h3>
-          <p class="obra-meta mono">68 m² · 2023 · comercial · obra em 41 noites</p>
-          <p class="obra-acoes"><button class="cta" type="button" data-obra="cardume" aria-haspopup="dialog">Ficha técnica <span class="seta" aria-hidden="true">→</span><span class="sr-only"> do Café Cardume</span></button></p>
-        </div>
-      </article>
-
-      <!-- Obra 03 -->
-      <article class="obra obra--areia rv" aria-labelledby="obra-areia">
-        <div class="ba">
-          <div class="ph ba-depois" data-ph="DEPOIS · Sala com marcenaria em laca e ferragens em inox 316">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1200" height="1500" loading="lazy" alt="Depois: sala do apartamento em Areia Preta com marcenaria clara e vista para o mar.">
-          </div>
-          <div class="ph ba-antes" data-ph="ANTES · Puxadores oxidados, luminárias com ferrugem">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1200" height="1500" loading="lazy" alt="Antes: sala com móveis antigos e ferragens oxidadas pela maresia.">
-          </div>
-          <span class="ba-rotulo ba-rotulo--antes mono" aria-hidden="true">Antes</span>
-          <span class="ba-rotulo ba-rotulo--depois mono" aria-hidden="true">Depois</span>
-          <div class="ba-alca" role="slider" tabindex="0" aria-label="Comparar antes e depois — Apartamento Areia Preta" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50% antes, 50% depois"></div>
-        </div>
-        <div class="obra-info">
-          <span class="obra-n mono">03</span>
-          <h3 class="obra-nome" id="obra-areia"><button type="button" data-obra="areia" aria-haspopup="dialog">Apartamento Areia Preta</button></h3>
-          <p class="obra-meta mono">96 m² · 2025 · interiores</p>
-          <p class="obra-acoes"><button class="cta" type="button" data-obra="areia" aria-haspopup="dialog">Ficha técnica <span class="seta" aria-hidden="true">→</span><span class="sr-only"> do Apartamento Areia Preta</span></button></p>
-        </div>
-      </article>
-
-      <!-- Obra 04 -->
-      <article class="obra obra--maracajau rv" aria-labelledby="obra-maracajau">
-        <div class="cota cota--h obra-cota" data-cota="38,60 m" aria-hidden="true"></div>
-        <div class="ba">
-          <div class="ph ba-depois" data-ph="DEPOIS · Fachada oeste com brises de madeira e telhado verde">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1800" height="1200" loading="lazy" alt="Depois: fachada da Pousada Maracajaú com brises de madeira e telhado verde.">
-          </div>
-          <div class="ph ba-antes" data-ph="ANTES · Fachada envidraçada, doze condensadoras à mostra">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1800" height="1200" loading="lazy" alt="Antes: fachada da pousada com janelas de vidro e aparelhos de ar-condicionado.">
-          </div>
-          <span class="ba-rotulo ba-rotulo--antes mono" aria-hidden="true">Antes</span>
-          <span class="ba-rotulo ba-rotulo--depois mono" aria-hidden="true">Depois</span>
-          <div class="ba-alca" role="slider" tabindex="0" aria-label="Comparar antes e depois — Pousada Maracajaú" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50% antes, 50% depois"></div>
-        </div>
-        <div class="obra-info">
-          <span class="obra-n mono">04</span>
-          <h3 class="obra-nome" id="obra-maracajau"><button type="button" data-obra="maracajau" aria-haspopup="dialog">Pousada Maracajaú</button></h3>
-          <p class="obra-meta mono">410 m² · 2022 · retrofit climático · 38% menos energia</p>
-          <p class="obra-acoes"><button class="cta" type="button" data-obra="maracajau" aria-haspopup="dialog">Ficha técnica <span class="seta" aria-hidden="true">→</span><span class="sr-only"> da Pousada Maracajaú</span></button></p>
-        </div>
-      </article>
-
-      <!-- Obra 05 -->
-      <article class="obra obra--livia rv" aria-labelledby="obra-livia">
-        <div class="ba">
-          <div class="ph ba-depois" data-ph="DEPOIS · Recepção com painel ripado e luz quente indireta">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1600" height="1100" loading="lazy" alt="Depois: recepção do consultório com painel de madeira ripada e iluminação indireta.">
-          </div>
-          <div class="ph ba-antes" data-ph="ANTES · Sala comercial vazia, forro de gesso e luz fria">
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1600" height="1100" loading="lazy" alt="Antes: sala comercial vazia com iluminação fria.">
-          </div>
-          <span class="ba-rotulo ba-rotulo--antes mono" aria-hidden="true">Antes</span>
-          <span class="ba-rotulo ba-rotulo--depois mono" aria-hidden="true">Depois</span>
-          <div class="ba-alca" role="slider" tabindex="0" aria-label="Comparar antes e depois — Consultório Dra. Lívia Torquato" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="50% antes, 50% depois"></div>
-        </div>
-        <div class="obra-info">
-          <span class="obra-n mono">05</span>
-          <h3 class="obra-nome" id="obra-livia"><button type="button" data-obra="livia" aria-haspopup="dialog">Consultório Dra. Lívia Torquato</button></h3>
-          <p class="obra-meta mono">54 m² · 2025 · comercial</p>
-          <p class="obra-acoes"><button class="cta" type="button" data-obra="livia" aria-haspopup="dialog">Ficha técnica <span class="seta" aria-hidden="true">→</span><span class="sr-only"> do Consultório Dra. Lívia Torquato</span></button></p>
-        </div>
-      </article>
-
-      <p class="nota obras-nota rv">Fotos sem filtro. A do antes também, e às vezes ela dói mais no dono do que na gente.</p>
-    </div>
+    <div class="destaques"><article class="rv">
+        <a href="obras/casa-pitangui.html" style="text-decoration:none">
+          <figure class=""><div class="foto" style="--ar:4 / 3"><img src="assets/img/pitangui-depois-1600.webp" srcset="assets/img/pitangui-depois-800.webp 900w, assets/img/pitangui-depois-1600.webp 1600w" sizes="(min-width: 64rem) 50vw, 100vw" width="1600" height="1067" loading="lazy" decoding="async" alt="varanda coberta com forro de madeira, sofás claros, vegetação tropical e piso de madeira"></div></figure>
+          <div class="obra-info"><span class="obra-n mono">04.1</span><h3 class="obra-nome">Casa Pitangui</h3><p class="obra-meta mono">142 m² · 2024 · reforma integral · 7 meses</p></div>
+        </a>
+      </article><article class="rv">
+        <a href="obras/cafe-cardume.html" style="text-decoration:none">
+          <figure class=""><div class="foto" style="--ar:3 / 4"><img src="assets/img/cardume-depois-1600.webp" srcset="assets/img/cardume-depois-800.webp 600w, assets/img/cardume-depois-1600.webp 1067w" sizes="(min-width: 64rem) 50vw, 100vw" width="1067" height="1600" loading="lazy" decoding="async" alt="salão do café com luminárias de globo, paredes de reboco aparente e mesas de madeira"></div></figure>
+          <div class="obra-info"><span class="obra-n mono">04.2</span><h3 class="obra-nome">Café Cardume</h3><p class="obra-meta mono">68 m² · 2023 · comercial · obra em 41 noites</p></div>
+        </a>
+      </article><article class="rv">
+        <a href="obras/pousada-maracajau.html" style="text-decoration:none">
+          <figure class=""><div class="foto" style="--ar:3 / 2"><img src="assets/img/maracajau-depois-1600.webp" srcset="assets/img/maracajau-depois-800.webp 900w, assets/img/maracajau-depois-1600.webp 1600w" sizes="(min-width: 64rem) 50vw, 100vw" width="1600" height="1065" loading="lazy" decoding="async" alt="chalé de madeira com deck elevado, cercado de coqueiros e céu azul"></div></figure>
+          <div class="obra-info"><span class="obra-n mono">04.4</span><h3 class="obra-nome">Pousada Maracajaú</h3><p class="obra-meta mono">410 m² · 2022 · retrofit climático · 38% menos energia</p></div>
+        </a>
+      </article></div>
+    <p style="margin-top:3rem" class="rv"><a class="cta cta--grande" href="obras.html">Ver as cinco obras selecionadas <span class="seta" aria-hidden="true">→</span></a></p>
   </div>
 </section>
 
-<!-- Painel lateral com a ficha técnica (preenchido por JS) -->
-<dialog class="painel" id="painel" aria-labelledby="painel-titulo">
-  <div class="painel-in">
-    <div class="painel-topo mono">
-      <span id="painel-fl">Ficha técnica · 01/05</span>
-      <button class="painel-fechar mono" type="button" id="painel-fechar">Fechar <span aria-hidden="true">[esc]</span></button>
-    </div>
-    <h2 class="painel-titulo" id="painel-titulo">Casa Pitangui</h2>
-    <p class="painel-sub mono" id="painel-sub"></p>
-    <div class="ph" id="painel-foto" data-ph="">
-      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1500" height="1000" loading="lazy" alt="" id="painel-img">
-    </div>
-    <dl class="ficha mono" id="painel-ficha"></dl>
-    <div class="painel-texto" id="painel-texto"></div>
-    <nav class="painel-nav" aria-label="Outras obras">
-      <button class="cta" type="button" id="painel-ant"><span class="seta" aria-hidden="true">←</span> <span></span></button>
-      <button class="cta" type="button" id="painel-prox"><span></span> <span class="seta" aria-hidden="true">→</span></button>
-    </nav>
-  </div>
-</dialog>
-
-<!-- ======================================================================
-     FL. 05 — COMO TRABALHAMOS
-     ====================================================================== -->
-<section class="secao processo" id="processo" data-fl="05" data-titulo="Como trabalhamos" aria-labelledby="processo-titulo">
+<!-- FL. 01 · E — PROCESSO EM RESUMO -->
+<section class="secao" data-secao="Processo" aria-labelledby="processo-titulo">
   <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 05/11</span><span>Como trabalhamos</span><span class="folha-meta">6 etapas · role para avançar</span>
-    </div>
-    <div class="processo-cab">
+    <div class="folha mono"><span class="fl">FL. 01 · E</span><span>Como trabalhamos</span><span class="folha-meta">6 etapas · detalhes na FL. 05</span></div>
+    <div class="cab-secao">
       <h2 class="titulo rv" id="processo-titulo">Da primeira visita ao <em>manual</em> da casa.</h2>
       <p class="nota rv">A etapa 3 é a que todo mundo quer pular. É a que mais economiza dinheiro.</p>
     </div>
-  </div>
-
-  <div class="trilho-scroll" id="trilho-scroll">
-    <div class="trilho-sticky">
-      <ol class="trilho" id="trilho">
-        <li class="etapa">
-          <p class="etapa-n mono"><span>Etapa 01</span><span class="etapa-dur">1 visita, sem custo</span></p>
-          <h3>Conversa no local</h3>
-          <p>A gente vai até a sua casa, olha, escuta e faz as perguntas chatas. Você sai sabendo se a obra faz sentido. A gente também.</p>
-        </li>
-        <li class="etapa">
-          <p class="etapa-n mono"><span>Etapa 02</span><span class="etapa-dur">1 semana</span></p>
-          <h3>Levantamento e medição</h3>
-          <p>Trena, nível a laser e martelinho de borracha. Batemos em cada parede para achar reboco oco antes do orçamento, não depois.</p>
-        </li>
-        <li class="etapa">
-          <p class="etapa-n mono"><span>Etapa 03</span><span class="etapa-dur">2 a 3 semanas</span></p>
-          <h3>Estudo preliminar</h3>
-          <p>Duas opções de layout, desenhadas à mão e depois no computador. Você escolhe uma, mistura as duas ou pede uma terceira.</p>
-        </li>
-        <li class="etapa">
-          <p class="etapa-n mono"><span>Etapa 04</span><span class="etapa-dur">3 semanas</span></p>
-          <h3>Projeto executivo e orçamento fechado</h3>
-          <p>Cada tomada cotada, cada peça de marcenaria detalhada. O orçamento sai daí, item por item, e é esse número que vai para o contrato.</p>
-        </li>
-        <li class="etapa">
-          <p class="etapa-n mono"><span>Etapa 05</span><span class="etapa-dur">O prazo do contrato</span></p>
-          <h3>Obra com diário semanal</h3>
-          <p>Toda sexta você recebe fotos e um relatório: o que foi feito, quem estava lá, o que deu errado e o que vem na semana seguinte.</p>
-        </li>
-        <li class="etapa">
-          <p class="etapa-n mono"><span>Etapa 06</span><span class="etapa-dur">1 dia + 5 anos</span></p>
-          <h3>Entrega e manual da casa</h3>
-          <p>Chave, limpeza fina e um manual com tudo que foi usado, onde comprar de novo e um plano de manutenção de 5 anos.</p>
-        </li>
-      </ol>
-      <div class="trilho-regua mono" aria-hidden="true">
-        <span class="trilho-regua-atual" id="regua-atual">Etapa 01/06</span>
-        <span class="trilho-regua-barra" id="regua-barra"></span>
-        <span>Entrega</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="wrap diario-bloco">
-    <div class="diario-intro rv">
-      <p class="mono secundario">Anexo · Etapa 05</p>
-      <h3 class="titulo" style="font-size:var(--fs-h3);margin-top:.75rem">O que chega no seu WhatsApp <em>toda sexta</em>.</h3>
-      <p style="margin-top:1rem;max-width:38ch">Um trecho real de diário (nomes trocados, foi a Marina que deixou mostrar). Fotos anexas, linguagem de gente, sem planilha.</p>
-    </div>
-
-    <article class="diario rv" aria-label="Exemplo de diário de obra">
-      <header class="diario-cab">
-        <span class="diario-titulo">Diário de obra nº 23 — Casa Pitangui</span>
-        <span class="mono secundario">Sex · 12.04.2024 · semana 23 de 30</span>
-      </header>
-      <dl>
-        <dt>Clima</dt>
-        <dd>Sol com nuvens, 29 °C, vento leste 18 km/h. Choveu 4 mm na terça, sem impacto no cronograma.</dd>
-        <dt>Equipe presente</dt>
-        <dd>Seu Raimundo (mestre), 2 pedreiros, 1 carpinteiro, 1 eletricista. Visita técnica da Helena na terça e na sexta.</dd>
-        <dt>Feito na semana</dt>
-        <dd>
-          <ul>
-            <li>Piso cerâmico da varanda assentado: 38 de 42 m².</li>
-            <li>Venezianas de cumaru instaladas nos quartos 1 e 2.</li>
-            <li>Fiação do quadro novo passada; teste de isolamento ok.</li>
-            <li>3 caçambas de entulho retiradas.</li>
-          </ul>
-        </dd>
-        <dt>Atenção</dt>
-        <dd class="diario-atencao">A veneziana do quarto 3 chegou com 4 mm a mais na altura. Volta para a marcenaria na segunda, sem custo e sem atraso.</dd>
-        <dt>Próxima etapa</dt>
-        <dd>Rejunte da varanda, fundo com cal nos quartos, chegada das louças (quarta, manhã). Alguém precisa estar em casa para receber.</dd>
-      </dl>
-      <div class="diario-assina">
-        <span class="rubrica">Davi M. Brandão</span>
-        <span class="mono secundario">14 fotos anexas</span>
-      </div>
-    </article>
-
-    <figure class="diario-aside rv">
-      <div class="ph" data-ph="FOTO 4:3 · Piso da varanda sendo assentado, régua de alumínio e nível sobre a argamassa">
-        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1200" height="900" loading="lazy" alt="Foto anexa ao diário: assentamento do piso cerâmico da varanda.">
-      </div>
-      <figcaption class="legenda mono">Foto 07/14 · varanda, 15h40</figcaption>
-    </figure>
+    <ol class="passos rv" role="list"><li><span class="mono">Etapa 01</span><strong>Conversa no local</strong><span>1 visita, sem custo</span></li><li><span class="mono">Etapa 02</span><strong>Levantamento e medição</strong><span>1 semana</span></li><li><span class="mono">Etapa 03</span><strong>Estudo preliminar</strong><span>2 a 3 semanas</span></li><li><span class="mono">Etapa 04</span><strong>Projeto executivo e orçamento fechado</strong><span>3 semanas</span></li><li><span class="mono">Etapa 05</span><strong>Obra com diário semanal</strong><span>O prazo do contrato</span></li><li><span class="mono">Etapa 06</span><strong>Entrega e manual da casa</strong><span>1 dia + 5 anos</span></li></ol>
+    <p style="margin-top:2.5rem" class="rv"><a class="cta" href="processo.html">Ver o processo completo e um diário de obra de verdade <span class="seta" aria-hidden="true">→</span></a></p>
   </div>
 </section>
 
-<!-- ======================================================================
-     FL. 06 — ESTIMATIVA RÁPIDA
-     ====================================================================== -->
-<section class="secao" id="estimativa" data-fl="06" data-titulo="Estimativa" aria-labelledby="calc-titulo">
+<!-- FL. 01 · F — QUEM CONTRATOU -->
+<section class="secao" data-secao="Quem contratou" aria-labelledby="dep-titulo">
   <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 06/11</span><span>Estimativa rápida</span><span class="folha-meta">Valores de referência · out. 2026</span>
-    </div>
-    <div class="calc-cab">
-      <h2 class="titulo rv" id="calc-titulo">Quanto custa, <em>mais ou menos</em>?</h2>
-      <p class="lead secundario rv">Quatro perguntas e você tem uma faixa honesta. Não substitui a visita, mas evita surpresa na primeira conversa.</p>
-    </div>
-
-    <form class="calc" id="calc" aria-describedby="calc-nota">
-      <div class="calc-campos">
-        <fieldset>
-          <legend class="mono">Tipo de obra</legend>
-          <div class="opcoes">
-            <label class="opcao"><input type="radio" name="tipo" value="residencial" checked><span>Residencial</span></label>
-            <label class="opcao"><input type="radio" name="tipo" value="comercial"><span>Comercial</span></label>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <div class="calc-rotulo mono"><label for="calc-area">Área a reformar</label><output for="calc-area" id="calc-area-saida">120 m²</output></div>
-          <input class="area-range" type="range" id="calc-area" name="area" min="20" max="400" step="2" value="120" aria-valuetext="120 metros quadrados">
-          <div class="area-escala mono" aria-hidden="true"><span style="--v:20">20</span><span style="--v:100">100</span><span style="--v:200">200</span><span style="--v:300">300</span><span style="--v:400">400 m²</span></div>
-        </fieldset>
-
-        <fieldset>
-          <legend class="mono">Padrão de acabamento</legend>
-          <div class="padroes">
-            <label class="padrao">
-              <input type="radio" name="padrao" value="1900" data-nome="Essencial" data-prazo=".85">
-              <span class="padrao-nome">Essencial</span><span class="padrao-preco mono">R$ 1.900/m²</span>
-              <span class="padrao-desc">Bom material, sem firula. Porcelanato nacional, marcenaria só onde precisa.</span>
-            </label>
-            <label class="padrao">
-              <input type="radio" name="padrao" value="2700" data-nome="Completo" data-prazo="1" checked>
-              <span class="padrao-nome">Completo</span><span class="padrao-preco mono">R$ 2.700/m²</span>
-              <span class="padrao-desc">O que a maioria escolhe. Cerâmica do Seridó, esquadrias novas, iluminação projetada.</span>
-            </label>
-            <label class="padrao">
-              <input type="radio" name="padrao" value="3800" data-nome="Autoral" data-prazo="1.25">
-              <span class="padrao-nome">Autoral</span><span class="padrao-preco mono">R$ 3.800/m²</span>
-              <span class="padrao-desc">Peças desenhadas para a casa: madeira maciça, ladrilho feito à mão, serralheria sob medida.</span>
-            </label>
-          </div>
-        </fieldset>
-
-        <fieldset>
-          <legend class="mono">Extras</legend>
-          <div class="extras">
-            <label class="extra"><input type="checkbox" name="moveis" value="0.18"><span>Incluir móveis planejados</span><span class="mono">+18%</span></label>
-            <label class="extra"><input type="checkbox" name="retrofit" value="0.12"><span>Retrofit climático</span><span class="mono">+12%</span></label>
-          </div>
-        </fieldset>
-      </div>
-
-      <aside class="resultado" aria-labelledby="res-rotulo">
-        <p class="resultado-rotulo mono"><span id="res-rotulo">Investimento estimado</span><span id="res-resumo">120 m² · Completo</span></p>
-        <output class="resultado-valor" id="res-valor" for="calc-area" aria-live="polite">R$ 301 mil <span class="a">a</span> R$ 347 mil</output>
-        <p class="resultado-prazo" id="res-prazo">Prazo estimado: <strong>5 a 6 meses</strong> de obra.</p>
-        <p class="resultado-conta mono" id="res-conta"></p>
-        <p class="nota" id="calc-nota">Estimativa de referência. O orçamento fechado sai depois do projeto executivo.</p>
-        <button class="cta" type="button" id="calc-enviar">Enviar essa estimativa e marcar visita <span class="seta" aria-hidden="true">→</span></button>
-      </aside>
-    </form>
-  </div>
-</section>
-
-<!-- ======================================================================
-     FL. 07 — VALORES DOS SERVIÇOS DE PROJETO
-     ====================================================================== -->
-<section class="secao" id="valores" data-fl="07" data-titulo="Valores" aria-labelledby="valores-titulo">
-  <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 07/11</span><span>Valores dos serviços de projeto</span><span class="folha-meta">Tabela 2026 · sem letra miúda</span>
-    </div>
-    <div class="valores-cab">
-      <h2 class="titulo rv" id="valores-titulo">O preço do <em>desenho</em>, escrito antes.</h2>
-      <p class="nota rv">Preço por m² de projeto, não de obra. A obra vem depois, no orçamento fechado.</p>
-    </div>
-
-    <table class="tabela rv">
-      <caption class="mono">Serviços de projeto — valores de referência para Natal e até 120 km</caption>
-      <thead class="mono">
-        <tr><th scope="col">Serviço</th><th scope="col">Valor</th><th scope="col">O que inclui</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row" class="t-servico">Consultoria pontual</th>
-          <td class="t-valor" data-rotulo="Valor"><strong>R$ 650</strong>por visita de 2h</td>
-          <td class="t-inclui" data-rotulo="O que inclui">Diagnóstico no local, croqui à mão e lista de prioridades. Para quem quer saber por onde começar, ou se vale começar.</td>
-        </tr>
-        <tr class="is-destaque">
-          <th scope="row" class="t-servico"><span class="etiqueta mono">Mais pedido</span><br>Projeto de interiores</th>
-          <td class="t-valor" data-rotulo="Valor"><strong>R$ 95/m²</strong>a partir de</td>
-          <td class="t-inclui" data-rotulo="O que inclui">Layout, marcenaria detalhada, projeto de iluminação e especificação de todos os materiais, com fornecedor e código.</td>
-        </tr>
-        <tr>
-          <th scope="row" class="t-servico">Projeto completo</th>
-          <td class="t-valor" data-rotulo="Valor"><strong>R$ 140/m²</strong>a partir de</td>
-          <td class="t-inclui" data-rotulo="O que inclui">Arquitetura, executivo, compatibilização com estrutura e instalações, e acompanhamento de obra.</td>
-        </tr>
-      </tbody>
-    </table>
-    <p class="nota valores-nota rv" style="max-width:44ch">Quem contrata a execução conosco tem 50% do valor do projeto abatido da obra.</p>
-  </div>
-</section>
-
-<!-- ======================================================================
-     FL. 08 — QUEM CONTRATOU
-     ====================================================================== -->
-<section class="secao" id="depoimentos" data-fl="08" data-titulo="Quem contratou" aria-labelledby="dep-titulo">
-  <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 08/11</span><span id="dep-titulo">Quem contratou</span><span class="folha-meta">5 depoimentos · use as setas</span>
-    </div>
-
+    <div class="folha mono"><span class="fl">FL. 01 · F</span><span id="dep-titulo">Quem contratou</span><span class="folha-meta">5 depoimentos · use as setas</span></div>
     <div class="dep-wrap" role="region" aria-roledescription="carrossel" aria-label="Depoimentos de clientes" id="carrossel">
-      <div class="dep-palco" id="dep-palco" aria-live="polite">
-        <figure class="dep is-ativo" role="group" aria-roledescription="depoimento" aria-label="1 de 5">
+      <div class="dep-palco" id="dep-palco" aria-live="polite"><figure class="dep is-ativo" role="group" aria-roledescription="depoimento" aria-label="1 de 5">
           <blockquote><p>Foi a primeira obra da minha vida em que eu dormi tranquila. O diário de sexta virou meu momento favorito da semana.</p></blockquote>
-          <figcaption><strong>Marina Albuquerque</strong><span class="mono">Casa Pitangui · 2024</span></figcaption>
-        </figure>
-        <figure class="dep" role="group" aria-roledescription="depoimento" aria-label="2 de 5">
+          <figcaption><strong>Marina Albuquerque</strong><a class="mono" href="obras/casa-pitangui.html">Casa Pitangui · 2024</a></figcaption>
+        </figure><figure class="dep" role="group" aria-roledescription="depoimento" aria-label="2 de 5">
           <blockquote><p>Fecharam o café às 22h e abriram às 6h por 41 noites. Não perdemos um dia de faturamento.</p></blockquote>
-          <figcaption><strong>Tiago e Renata Lopes</strong><span class="mono">Café Cardume · 2023</span></figcaption>
-        </figure>
-        <figure class="dep" role="group" aria-roledescription="depoimento" aria-label="3 de 5">
-          <blockquote><p>Pagamos 38% menos de energia no primeiro verão. O retrofit se paga em quatro anos.</p></blockquote>
-          <figcaption><strong>Jorge Pessoa</strong><span class="mono">Pousada Maracajaú · 2022</span></figcaption>
-        </figure>
-        <figure class="dep" role="group" aria-roledescription="depoimento" aria-label="4 de 5">
-          <blockquote><p>Eles disseram não para duas ideias minhas. Ainda bem.</p></blockquote>
-          <figcaption><strong>Lívia Torquato</strong><span class="mono">Consultório · 2025</span></figcaption>
-        </figure>
-        <figure class="dep" role="group" aria-roledescription="depoimento" aria-label="5 de 5">
+          <figcaption><strong>Tiago e Renata Lopes</strong><a class="mono" href="obras/cafe-cardume.html">Café Cardume · 2023</a></figcaption>
+        </figure><figure class="dep" role="group" aria-roledescription="depoimento" aria-label="3 de 5">
           <blockquote><p>O orçamento fechado foi o orçamento final. Diferença de R$ 1.200 em uma obra de R$ 310 mil.</p></blockquote>
-          <figcaption><strong>Paulo Henrique Saraiva</strong><span class="mono">Apto. Areia Preta · 2025</span></figcaption>
-        </figure>
-      </div>
-
+          <figcaption><strong>Paulo Henrique Saraiva</strong><a class="mono" href="obras/apartamento-areia-preta.html">Apartamento Areia Preta · 2025</a></figcaption>
+        </figure><figure class="dep" role="group" aria-roledescription="depoimento" aria-label="4 de 5">
+          <blockquote><p>Pagamos 38% menos de energia no primeiro verão. O retrofit se paga em quatro anos.</p></blockquote>
+          <figcaption><strong>Jorge Pessoa</strong><a class="mono" href="obras/pousada-maracajau.html">Pousada Maracajaú · 2022</a></figcaption>
+        </figure><figure class="dep" role="group" aria-roledescription="depoimento" aria-label="5 de 5">
+          <blockquote><p>Eles disseram não para duas ideias minhas. Ainda bem.</p></blockquote>
+          <figcaption><strong>Lívia Torquato</strong><a class="mono" href="obras/consultorio-livia-torquato.html">Consultório Dra. Lívia Torquato · 2025</a></figcaption>
+        </figure></div>
       <div class="dep-controles">
-        <button class="dep-btn" type="button" id="dep-ant" aria-label="Depoimento anterior" aria-controls="dep-palco">
-          <svg viewBox="0 0 18 10" aria-hidden="true"><path d="M17 5H1M5 1 1 5l4 4"/></svg>
-        </button>
+        <button class="dep-btn" type="button" id="dep-ant" aria-label="Depoimento anterior" aria-controls="dep-palco"><svg viewBox="0 0 18 10" aria-hidden="true"><path d="M17 5H1M5 1 1 5l4 4"/></svg></button>
         <p class="dep-contador mono" id="dep-contador" aria-hidden="true"><b>01</b> / 05</p>
-        <button class="dep-btn" type="button" id="dep-prox" aria-label="Próximo depoimento" aria-controls="dep-palco">
-          <svg viewBox="0 0 18 10" aria-hidden="true"><path d="M1 5h16M13 1l4 4-4 4"/></svg>
-        </button>
+        <button class="dep-btn" type="button" id="dep-prox" aria-label="Próximo depoimento" aria-controls="dep-palco"><svg viewBox="0 0 18 10" aria-hidden="true"><path d="M1 5h16M13 1l4 4-4 4"/></svg></button>
       </div>
     </div>
-
-    <div class="imprensa rv">
+    <div style="margin-top:clamp(4rem,8vw,7rem)"><div class="imprensa rv">
       <p class="mono secundario" style="margin-bottom:.75rem">Parceiros e imprensa</p>
       <ul class="imprensa-lista" role="list">
         <li><span class="marca-revista"><b>Revista</b>Casa Potiguar</span></li>
@@ -2012,276 +282,20 @@ button { font: inherit; color: inherit; }
         <li><span class="marca-madeireira">Madeireira<span>Jundiaí</span></span></li>
         <li><span class="marca-ceramica">Cerâmica Seridó</span></li>
       </ul>
-    </div>
+    </div></div>
   </div>
 </section>
 
-<!-- ======================================================================
-     FL. 09 — O ESTÚDIO
-     ====================================================================== -->
-<section class="secao" id="estudio" data-fl="09" data-titulo="O estúdio" aria-labelledby="estudio-titulo">
-  <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 09/11</span><span>O estúdio</span><span class="folha-meta">5 pessoas · 1 sobrado de 1952</span>
-    </div>
-    <div class="estudio-cab">
-      <h2 class="titulo rv" id="estudio-titulo">Somos cinco. <em>Todo mundo</em> vai à obra.</h2>
-      <p class="lead secundario rv">Funcionamos no térreo de um sobrado na Ponta Fina, com uma prancheta grande, uma parede de amostras e café coado às 15h.</p>
-    </div>
-
-    <ul class="equipe" role="list">
-      <li class="pessoa rv">
-        <div class="ph" style="--tom:#B98B6A" data-ph="FOTO P&amp;B 3:4 · Helena na prancheta, de perfil, desenhando à mão. Luz de janela.">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="900" height="1200" loading="lazy" alt="Helena Quaresma desenhando à mão na prancheta do estúdio.">
-        </div>
-        <h3 class="pessoa-nome">Helena Quaresma</h3>
-        <p class="pessoa-cargo mono">Arquiteta, sócia fundadora</p>
-        <p class="pessoa-nota nota">Desenha tudo à mão antes de abrir o computador.</p>
-      </li>
-      <li class="pessoa rv" style="--atraso:80ms">
-        <div class="ph" style="--tom:#7F9497" data-ph="FOTO P&amp;B 3:4 · Davi no canteiro, capacete na mão, conferindo prumo de parede">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="900" height="1200" loading="lazy" alt="Davi Moraes Brandão no canteiro de obras conferindo o prumo de uma parede.">
-        </div>
-        <h3 class="pessoa-nome">Davi Moraes Brandão</h3>
-        <p class="pessoa-cargo mono">Engenheiro civil, sócio fundador</p>
-        <p class="pessoa-nota nota">Visita cada obra pelo menos duas vezes por semana.</p>
-      </li>
-      <li class="pessoa rv" style="--atraso:160ms">
-        <div class="ph" style="--tom:#B4A06A" data-ph="FOTO P&amp;B 3:4 · Bia diante da parede de amostras de cerâmica">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="900" height="1200" loading="lazy" alt="Bia Fontes em frente à parede de amostras de cerâmica do estúdio.">
-        </div>
-        <h3 class="pessoa-nome">Bia Fontes</h3>
-        <p class="pessoa-cargo mono">Arquiteta de interiores</p>
-        <p class="pessoa-nota nota">Coleciona amostras de cerâmica do Seridó.</p>
-      </li>
-      <li class="pessoa rv">
-        <div class="ph" style="--tom:#A07A5C" data-ph="FOTO P&amp;B 4:5 · Seu Raimundo com a colher de pedreiro, mãos em primeiro plano">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1000" height="1250" loading="lazy" alt="Seu Raimundo Lira segurando a colher de pedreiro, com as mãos em primeiro plano.">
-        </div>
-        <h3 class="pessoa-nome">Seu Raimundo Lira</h3>
-        <p class="pessoa-cargo mono">Mestre de obras há 27 anos</p>
-        <p class="pessoa-nota nota">Está com a gente desde a primeira obra.</p>
-      </li>
-      <li class="pessoa rv" style="--atraso:80ms">
-        <div class="ph" style="--tom:#8A8F6E" data-ph="FOTO P&amp;B 4:5 · Caio com planilha impressa e caneta vermelha">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1000" height="1250" loading="lazy" alt="Caio Neves revisando um orçamento impresso com caneta vermelha.">
-        </div>
-        <h3 class="pessoa-nome">Caio Neves</h3>
-        <p class="pessoa-cargo mono">Orçamentista</p>
-        <p class="pessoa-nota nota">Errou um orçamento em 2019 e nunca mais deixou passar.</p>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<!-- ======================================================================
-     FL. 10 — PERGUNTAS FREQUENTES
-     ====================================================================== -->
-<section class="secao" id="perguntas" data-fl="10" data-titulo="Perguntas" aria-labelledby="faq-titulo">
-  <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 10/11</span><span>Perguntas frequentes</span><span class="folha-meta">6 respostas diretas</span>
-    </div>
-    <div class="faq-grid">
-      <div class="faq-cab">
-        <h2 class="titulo rv" id="faq-titulo">O que todo mundo <em>pergunta</em> na primeira visita.</h2>
-        <p class="nota rv">Se a sua dúvida não está aqui, manda no WhatsApp. Quem responde é gente.</p>
-      </div>
-
-      <div class="faq-lista">
-        <details class="faq-item" name="faq">
-          <summary><span class="mono">01</span><span>Quanto tempo dura uma reforma?</span><span class="servico-sinal" aria-hidden="true"></span></summary>
-          <div class="faq-resposta">
-            <p>Apartamento com reforma completa: 3 a 5 meses. Casa: 5 a 8. Comercial costuma ser mais rápida, porque concentramos a equipe. O prazo vai escrito no contrato, e 94% das nossas obras terminaram dentro dele.</p>
-            <p>As outras 6% atrasaram, em média, 11 dias. A gente anota isso também.</p>
-          </div>
-        </details>
-        <details class="faq-item" name="faq">
-          <summary><span class="mono">02</span><span>Dá para fazer a obra com a família morando?</span><span class="servico-sinal" aria-hidden="true"></span></summary>
-          <div class="faq-resposta">
-            <p>Dá, se a obra for dividida por etapas e alguém aceitar uns dias de micro-ondas. Isolamos os cômodos com divisória e lona, fazemos a parte barulhenta das 8h às 16h e limpamos o caminho todo fim de tarde.</p>
-            <p>Banheiro único e cozinha ao mesmo tempo, aí não recomendamos. Nem para a gente.</p>
-          </div>
-        </details>
-        <details class="faq-item" name="faq">
-          <summary><span class="mono">03</span><span>Como funciona o pagamento?</span><span class="servico-sinal" aria-hidden="true"></span></summary>
-          <div class="faq-resposta">
-            <p>Uma entrada na assinatura do contrato e o restante em medições mensais: no fim de cada mês, medimos o que foi feito, você confere no diário e paga só aquilo que está pronto.</p>
-            <p>Nada de pagar adiantado por etapa que ainda não começou.</p>
-          </div>
-        </details>
-        <details class="faq-item" name="faq">
-          <summary><span class="mono">04</span><span>Qual é a garantia?</span><span class="servico-sinal" aria-hidden="true"></span></summary>
-          <div class="faq-resposta">
-            <p>5 anos para tudo que é estrutural. 1 ano para acabamento: pintura, rejunte, regulagem de esquadria. A vistoria de 12 meses já sai marcada no dia da entrega.</p>
-          </div>
-        </details>
-        <details class="faq-item" name="faq">
-          <summary><span class="mono">05</span><span>Vocês atendem fora de Natal?</span><span class="servico-sinal" aria-hidden="true"></span></summary>
-          <div class="faq-resposta">
-            <p>Até 120 km da sede: Pipa, Touros, Maracajaú, Macaíba, São Miguel do Gostoso (por pouco). Mais longe que isso não conseguimos visitar a obra duas vezes por semana, e aí deixa de ser o nosso jeito de trabalhar.</p>
-          </div>
-        </details>
-        <details class="faq-item" name="faq">
-          <summary><span class="mono">06</span><span>Vocês executam projeto de outro arquiteto?</span><span class="servico-sinal" aria-hidden="true"></span></summary>
-          <div class="faq-resposta">
-            <p>Sim. Antes de orçar, fazemos uma leitura técnica do projeto: se faltar detalhe (e quase sempre falta um), avisamos você e o autor antes de virar improviso no canteiro.</p>
-            <p>Mudança no desenho, só com o ok de quem desenhou.</p>
-          </div>
-        </details>
-      </div>
+<section class="chamada" aria-labelledby="chamada-titulo">
+  <div class="wrap chamada-grid">
+    <h2 id="chamada-titulo" class="rv">Vamos ver <em>sua</em> casa?</h2>
+    <div class="chamada-acoes rv">
+      <p>A primeira visita não custa nada. Você mostra a casa, a gente faz as perguntas chatas e sai de lá dizendo se a obra faz sentido.</p>
+      <a class="cta cta--grande" href="contato.html">Marcar uma visita <span class="seta" aria-hidden="true">→</span></a>
+      <a class="cta" href="https://wa.me/5584991880412">Ou chamar no WhatsApp, (84) 99188-0412</a>
     </div>
   </div>
 </section>
-
-<!-- ======================================================================
-     FL. 11 — CONTATO
-     ====================================================================== -->
-<section class="secao" id="contato" data-fl="11" data-titulo="Contato" aria-labelledby="contato-titulo">
-  <div class="wrap">
-    <div class="folha mono">
-      <span class="fl">FL. 11/11</span><span>Contato</span><span class="folha-meta">Resposta em até 1 dia útil</span>
-    </div>
-
-    <div class="contato-grid">
-      <div class="contato-info">
-        <h2 class="titulo contato-titulo rv" id="contato-titulo">Vamos ver <em>sua</em> casa?</h2>
-
-        <dl class="contato-dados mono rv">
-          <dt>WhatsApp</dt><dd><a href="https://wa.me/5584991880412">(84) 99188-0412</a></dd>
-          <dt>Telefone</dt><dd><a href="tel:+558432017745">(84) 3201-7745</a></dd>
-          <dt>E-mail</dt><dd><a href="mailto:ola@ferroesal.arq.br">ola@ferroesal.arq.br</a></dd>
-          <dt>Instagram</dt><dd><a href="https://instagram.com/ferroesal.arq">@ferroesal.arq</a></dd>
-          <dt>Endereço</dt><dd>Rua das Salinas, 418<br>Ponta Fina, Natal/RN</dd>
-          <dt>Horário</dt><dd>Seg a sex, 8h às 18h<br>Sáb, 8h às 12h</dd>
-        </dl>
-
-        <figure class="mapa-fig rv">
-          <svg class="mapa" viewBox="0 0 640 420" role="img" aria-labelledby="mapa-titulo mapa-desc">
-            <title id="mapa-titulo">Mapa esquemático do escritório</title>
-            <desc id="mapa-desc">O escritório fica na Rua das Salinas, 418, bairro Ponta Fina, a duas quadras da Avenida Beira-Mar.</desc>
-            <defs>
-              <pattern id="agua" width="28" height="12" patternUnits="userSpaceOnUse">
-                <path class="agua-linha" d="M2 6h12"/>
-              </pattern>
-            </defs>
-            <!-- mar -->
-            <path class="mar" d="M478 0C462 60 492 112 470 172S436 262 462 322 478 392 466 420H640V0Z"/>
-            <path class="costa" d="M478 0C462 60 492 112 470 172S436 262 462 322 478 392 466 420"/>
-            <text class="rotulo rotulo--mar" x="560" y="210" text-anchor="middle" transform="rotate(90 560 210)">Oceano Atlântico</text>
-            <!-- quadras -->
-            <g class="quadras">
-              <rect class="quadra" x="40"  y="40"  width="110" height="70"/>
-              <rect class="quadra" x="170" y="40"  width="110" height="70"/>
-              <rect class="quadra" x="300" y="40"  width="110" height="70"/>
-              <rect class="quadra" x="40"  y="150" width="110" height="80"/>
-              <rect class="quadra" x="170" y="150" width="110" height="80"/>
-              <rect class="quadra" x="300" y="150" width="104" height="80"/>
-              <rect class="quadra" x="40"  y="270" width="110" height="90"/>
-              <rect class="quadra" x="170" y="270" width="110" height="90"/>
-              <rect class="quadra" x="300" y="270" width="110" height="90"/>
-            </g>
-            <!-- ruas -->
-            <path class="rua" d="M0 130H440M0 250H436M160 0V420M290 0V420M0 380H460"/>
-            <path class="rua rua--principal" d="M430 0C418 70 446 120 426 180S398 270 420 330 432 395 424 420"/>
-            <text class="rotulo" x="20" y="125">R. das Salinas</text>
-            <text class="rotulo" x="20" y="245">R. do Sal Grosso</text>
-            <text class="rotulo" x="166" y="408" transform="rotate(-90 166 408)">Trav. Ponta Fina</text>
-            <text class="rotulo" x="412" y="300" transform="rotate(-80 412 300)">Av. Beira-Mar</text>
-            <text class="rotulo rotulo--bairro" x="56" y="210">PONTA FINA</text>
-            <!-- ponto do escritório -->
-            <circle class="ponto-anel" cx="236" cy="130" r="14"/>
-            <rect class="ponto" x="230" y="124" width="12" height="12"/>
-            <path class="chamada" d="M246 120 290 82H310"/>
-            <rect class="chamada-caixa" x="310" y="58" width="152" height="44"/>
-            <text class="chamada-txt chamada-txt--forte" x="320" y="78">Ferro &amp; Sal</text>
-            <text class="chamada-txt" x="320" y="93">R. DAS SALINAS, 418</text>
-            <!-- norte -->
-            <g class="norte" transform="translate(586 40)">
-              <path d="M0 -18 7 12 0 6 -7 12Z"/>
-              <path class="cheio" d="M0 -18 0 6 -7 12Z"/>
-              <text x="0" y="30" text-anchor="middle">N</text>
-            </g>
-            <!-- escala -->
-            <g class="escala" transform="translate(40 396)">
-              <rect class="cheio" x="0" y="0" width="40" height="5"/>
-              <rect x="40" y="0" width="40" height="5"/>
-              <rect class="cheio" x="80" y="0" width="40" height="5"/>
-              <text class="rotulo" x="0" y="-5">0</text>
-              <text class="rotulo" x="72" y="-5">100</text>
-              <text class="rotulo" x="112" y="-5">200 m</text>
-            </g>
-          </svg>
-          <figcaption>Duas quadras antes da Beira-Mar, portão de madeira verde. Dá para estacionar na rua; de manhã é mais fácil.</figcaption>
-        </figure>
-      </div>
-
-      <!-- Formulário: sem backend. Para receber de verdade, aponte o action para
-           o seu serviço (Formspree, Netlify Forms, endpoint próprio) e troque o
-           trecho "enviar" do JS por um fetch. -->
-      <form class="form" id="form" novalidate aria-labelledby="form-cab">
-        <p class="form-cab mono" id="form-cab"><span>Formulário de visita</span><span>6 campos · 1 minuto</span></p>
-
-        <div class="campo">
-          <label for="f-nome">Nome</label>
-          <input id="f-nome" name="nome" type="text" autocomplete="name" required minlength="2" placeholder="Como a gente te chama" aria-describedby="e-nome">
-          <p class="campo-erro" id="e-nome" aria-live="polite"></p>
-        </div>
-
-        <div class="form-duplo">
-          <div class="campo">
-            <label for="f-whats">WhatsApp</label>
-            <input id="f-whats" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel-national" required placeholder="(84) 9____-____" aria-describedby="e-whats">
-            <p class="campo-erro" id="e-whats" aria-live="polite"></p>
-          </div>
-          <div class="campo">
-            <label for="f-local">Bairro / cidade</label>
-            <input id="f-local" name="local" type="text" autocomplete="address-level2" required placeholder="Ex.: Petrópolis, Natal" aria-describedby="e-local">
-            <p class="campo-erro" id="e-local" aria-live="polite"></p>
-          </div>
-        </div>
-
-        <div class="form-duplo">
-          <div class="campo campo--select">
-            <label for="f-tipo">Tipo de obra</label>
-            <select id="f-tipo" name="tipo" required aria-describedby="e-tipo">
-              <option value="">Escolha uma opção</option>
-              <option value="residencial">Reforma residencial completa</option>
-              <option value="projeto">Projeto (sem execução)</option>
-              <option value="retrofit">Retrofit para clima quente</option>
-              <option value="comercial">Reforma comercial</option>
-              <option value="laudo">Laudo e manutenção</option>
-              <option value="nao-sei">Ainda não sei</option>
-            </select>
-            <p class="campo-erro" id="e-tipo" aria-live="polite"></p>
-          </div>
-          <div class="campo">
-            <label for="f-area">Área aproximada <span class="opc">(m², opcional)</span></label>
-            <input id="f-area" name="area" type="number" inputmode="numeric" min="5" max="5000" step="1" placeholder="Chute vale" aria-describedby="e-area">
-            <p class="campo-erro" id="e-area" aria-live="polite"></p>
-          </div>
-        </div>
-
-        <div class="campo">
-          <label for="f-msg">Mensagem <span class="opc">(opcional)</span></label>
-          <textarea id="f-msg" name="mensagem" rows="4" maxlength="1500" placeholder="O que incomoda na casa hoje? Goteira, calor, layout, tudo junto…"></textarea>
-        </div>
-
-        <div class="form-acoes">
-          <button class="cta" type="submit">Enviar e marcar visita <span class="seta" aria-hidden="true">→</span></button>
-          <p class="form-aviso">Seus dados servem só para a gente responder. Nada de lista de e-mail.</p>
-        </div>
-        <p class="form-status" id="form-status" role="status"></p>
-      </form>
-
-      <div class="sucesso" id="sucesso" tabindex="-1" hidden>
-        <p>Recebido. A Helena ou o Davi respondem em até 1 dia útil.</p>
-        <p>Se for urgente (goteira em dia de chuva conta), chama no <a href="https://wa.me/5584991880412">WhatsApp</a>.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 </main>
 
 <!-- ======================================================================
@@ -2291,40 +305,25 @@ button { font: inherit; color: inherit; }
   <div class="wrap">
     <div class="carimbo">
       <div class="c-marca">
-        <a class="logo" href="#inicio">Ferro <em>&amp;</em> Sal</a>
+        <a class="logo" href="index.html">Ferro <em>&amp;</em> Sal</a>
         <p class="mono">Arquitetura e Reforma · Casas que envelhecem bem.</p>
       </div>
-      <div><span class="c-rot mono">Folha</span><span class="c-val mono">11/11</span></div>
-      <div><span class="c-rot mono">Escala</span><span class="c-val mono">1:1</span></div>
-      <div><span class="c-rot mono">Revisão</span><span class="c-val mono">2026</span></div>
-      <div><span class="c-rot mono">Desde</span><span class="c-val mono">2014</span></div>
+      <div class="c-conteudo"><span class="c-rot mono">Conteúdo</span><span class="c-val">Início</span></div>
+      <div class="c-folha"><span class="c-rot mono">Folha</span><span class="c-val mono">01/08</span></div>
+      <div class="c-escala"><span class="c-rot mono">Escala</span><span class="c-val mono">1:1</span></div>
       <div class="c-tema"><span class="c-rot mono">Prancha</span><button class="tema-btn mono" type="button" id="tema-btn" aria-pressed="false">Dia</button></div>
       <div class="c-resp"><span class="c-rot mono">Responsável técnico</span><span class="c-val">Helena Quaresma — CAU A000000-0 (fictício)</span></div>
-      <nav class="c-links" aria-label="Rodapé"><span class="c-rot mono">Folhas</span>
-        <ul role="list">
-          <li><a href="#manifesto">Manifesto</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#obras">Obras</a></li>
-          <li><a href="#processo">Processo</a></li>
-          <li><a href="#estimativa">Estimativa</a></li>
-          <li><a href="#valores">Valores</a></li>
-          <li><a href="#estudio">Estúdio</a></li>
-          <li><a href="#perguntas">Perguntas</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
+      <div class="c-revisao"><span class="c-rot mono">Revisão</span><span class="c-val mono">2026</span></div>
+      <div class="c-desde"><span class="c-rot mono">Desde</span><span class="c-val mono">2014</span></div>
+      <div class="c-anexos"><span class="c-rot mono">Anexos</span><ul role="list" class="c-val"><li><a href="privacidade.html">Privacidade</a></li><li><a href="creditos.html">Créditos das fotos</a></li></ul></div>
+      <nav class="c-links" aria-label="Todas as folhas"><span class="c-rot mono">Folhas</span><ul role="list"><li><a href="index.html" aria-current="page">01 Início</a></li><li><a href="estudio.html">02 Estúdio</a></li><li><a href="servicos.html">03 Serviços</a></li><li><a href="obras.html">04 Obras</a></li><li><a href="processo.html">05 Processo</a></li><li><a href="valores.html">06 Valores</a></li><li><a href="perguntas.html">07 Perguntas</a></li><li><a href="contato.html">08 Contato</a></li></ul></nav>
       <div class="c-redes"><span class="c-rot mono">Redes e contato</span>
         <ul role="list">
           <li><a href="https://instagram.com/ferroesal.arq">Instagram</a></li>
           <li><a href="https://wa.me/5584991880412">WhatsApp</a></li>
-          <li><a href="mailto:ola@ferroesal.arq.br">E-mail</a></li>
+          <li><a href="mailto:ola@ferroesal.arq.br">ola@ferroesal.arq.br</a></li>
+          <li><a href="tel:+558432017745">(84) 3201-7745</a></li>
         </ul>
-      </div>
-      <div class="c-priv"><span class="c-rot mono">Privacidade</span>
-        <details>
-          <summary>Aviso de privacidade</summary>
-          <p>Usamos nome, WhatsApp e bairro só para responder ao seu contato e marcar a visita. Não vendemos, não compartilhamos e não mandamos newsletter. Este site não usa cookies de rastreamento. Para apagar seus dados, escreva para ola@ferroesal.arq.br.</p>
-        </details>
       </div>
       <p class="c-calma">Feito em Natal, com calma.</p>
     </div>
@@ -2336,649 +335,6 @@ button { font: inherit; color: inherit; }
   </div>
 </footer>
 
-<script>
-/* ==========================================================================
-   FERRO & SAL — interações
-   JavaScript puro, sem bibliotecas. Cada bloco corresponde a uma folha.
-   ========================================================================== */
-(() => {
-  'use strict';
-
-  const $  = (s, c = document) => c.querySelector(s);
-  const $$ = (s, c = document) => [...c.querySelectorAll(s)];
-  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
-  const root = document.documentElement;
-  const mqMotion = matchMedia('(prefers-reduced-motion: no-preference)');
-  const motion = () => mqMotion.matches;
-  const temSDA = CSS.supports('(animation-timeline: view()) and (animation-range: entry)');
-
-  root.classList.add('js');
-  if (!temSDA) root.classList.add('sem-sda');
-
-  /* ------------------------------------------------------------------------
-     TEMA (prancha dia/noite) — guardado só como conveniência local
-     ------------------------------------------------------------------------ */
-  const temaBtn = $('#tema-btn');
-  const lerTema = () => { try { return localStorage.getItem('fs-tema'); } catch { return null; } };
-  const escuroAtual = () => {
-    const t = root.dataset.theme;
-    return t ? t === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-  };
-  const pintarBotaoTema = () => {
-    const escuro = escuroAtual();
-    temaBtn.textContent = escuro ? 'Noite' : 'Dia';
-    temaBtn.setAttribute('aria-pressed', String(escuro));
-    temaBtn.setAttribute('aria-label', escuro ? 'Prancha noite (modo escuro). Trocar para dia' : 'Prancha dia (modo claro). Trocar para noite');
-  };
-  const salvo = lerTema();
-  if (salvo) root.dataset.theme = salvo;
-  pintarBotaoTema();
-  temaBtn.addEventListener('click', () => {
-    const novo = escuroAtual() ? 'light' : 'dark';
-    root.dataset.theme = novo;
-    try { localStorage.setItem('fs-tema', novo); } catch {}
-    pintarBotaoTema();
-  });
-
-  /* ------------------------------------------------------------------------
-     COTAS — gera o SVG (linha, setas, linhas de chamada) a partir de [data-cota]
-     ------------------------------------------------------------------------ */
-  const NS = 'http://www.w3.org/2000/svg';
-  $$('[data-cota]').forEach((el) => {
-    const vertical = el.classList.contains('cota--v');
-    // Linha principal com percentuais; setas em <svg> aninhados para não distorcer
-    const svg = vertical
-      ? `<svg xmlns="${NS}" aria-hidden="true">
-           <line class="cota-traco" x1="12" y1="1" x2="12" y2="100%"/>
-           <path class="cota-ponta" d="M2 1H22M8 8 12 1 16 8"/>
-           <svg y="100%" overflow="visible"><path class="cota-ponta" d="M2 -1H22M8 -8 12 -1 16 -8"/></svg>
-         </svg>`
-      : `<svg xmlns="${NS}" aria-hidden="true">
-           <line class="cota-traco" x1="1" y1="12" x2="100%" y2="12"/>
-           <path class="cota-ponta" d="M1 2V22M8 8 1 12 8 16"/>
-           <svg x="100%" overflow="visible"><path class="cota-ponta" d="M-1 2V22M-8 8 -1 12 -8 16"/></svg>
-         </svg>`;
-    el.innerHTML = svg + `<span class="cota-medida">${el.dataset.cota}</span>`;
-  });
-
-  /* ------------------------------------------------------------------------
-     FL. 00 — RELÓGIO E CLIMA (hora local real de Natal)
-     ------------------------------------------------------------------------ */
-  const hora = $('#hora');
-  const fmtHora = new Intl.DateTimeFormat('pt-BR', { timeZone: 'America/Fortaleza', hour: '2-digit', minute: '2-digit' });
-  const fmtISO = () => new Date().toISOString();
-  const tic = () => { hora.textContent = fmtHora.format(new Date()); hora.dateTime = fmtISO(); };
-  tic();
-  setInterval(tic, 15000);
-
-  // Temperatura atual (Open-Meteo, sem chave). Se falhar, fica 27°C.
-  (async () => {
-    try {
-      const ctrl = new AbortController();
-      const t = setTimeout(() => ctrl.abort(), 4000);
-      const r = await fetch('https://api.open-meteo.com/v1/forecast?latitude=-5.79&longitude=-35.21&current=temperature_2m', { signal: ctrl.signal });
-      clearTimeout(t);
-      const d = await r.json();
-      const c = Math.round(d?.current?.temperature_2m);
-      if (Number.isFinite(c)) $('#clima').textContent = `${c}°C`;
-    } catch { /* fica o valor padrão */ }
-  })();
-
-  /* ------------------------------------------------------------------------
-     FL. 00 — CABEÇALHO: some ao descer, volta ao subir
-     ------------------------------------------------------------------------ */
-  const topo = $('#topo');
-  let ultimoY = scrollY;
-  const atualizarTopo = () => {
-    const y = scrollY;
-    const desceu = y > ultimoY + 4;
-    const subiu = y < ultimoY - 4;
-    if (y < 120 || subiu) topo.classList.remove('is-oculto');
-    else if (desceu) topo.classList.add('is-oculto');
-    if (desceu || subiu) ultimoY = y;
-  };
-
-  /* ------------------------------------------------------------------------
-     FL. 00 — NUMERAÇÃO "FL." NO CABEÇALHO + item ativo do menu
-     ------------------------------------------------------------------------ */
-  const flNum = $('#fl-num');
-  const flNome = $('#fl-nome');
-  const navLinks = $$('[data-nav]');
-  let flAtual = '01';
-  const ioFolha = new IntersectionObserver((entradas) => {
-    entradas.forEach((e) => {
-      if (!e.isIntersecting) return;
-      const s = e.target;
-      if (s.dataset.fl === flAtual) return;
-      flAtual = s.dataset.fl;
-      flNum.textContent = `FL. ${flAtual}/11`;
-      flNome.textContent = s.dataset.titulo;
-      if (motion()) { flNum.classList.remove('is-troca'); void flNum.offsetWidth; flNum.classList.add('is-troca'); }
-      navLinks.forEach((a) => {
-        if (a.dataset.nav === s.id) a.setAttribute('aria-current', 'true');
-        else a.removeAttribute('aria-current');
-      });
-    });
-  }, { rootMargin: '-45% 0px -54% 0px' });
-  $$('[data-fl]').forEach((s) => ioFolha.observe(s));
-
-  /* ------------------------------------------------------------------------
-     FL. 00 — MENU MOBILE (dialog em tela cheia)
-     ------------------------------------------------------------------------ */
-  const menu = $('#menu');
-  $('#menu-abrir').addEventListener('click', () => menu.showModal());
-  $('#menu-fechar').addEventListener('click', () => menu.close());
-  $$('a', menu).forEach((a) => a.addEventListener('click', () => menu.close()));
-  matchMedia('(min-width: 64rem)').addEventListener('change', (e) => { if (e.matches && menu.open) menu.close(); });
-
-  /* ------------------------------------------------------------------------
-     REVELAÇÃO AO ROLAR + desenho das cotas + contadores (uma vez só)
-     ------------------------------------------------------------------------ */
-  const contar = (el) => {
-    const alvo = +el.dataset.conta;
-    if (!motion()) { el.textContent = alvo; return; }
-    const t0 = performance.now();
-    const dur = 600;
-    const passo = (t) => {
-      const p = clamp((t - t0) / dur, 0, 1);
-      const e = 1 - Math.pow(1 - p, 3);
-      el.textContent = Math.round(alvo * e);
-      if (p < 1) requestAnimationFrame(passo);
-    };
-    requestAnimationFrame(passo);
-  };
-  const ioRevela = new IntersectionObserver((entradas, obs) => {
-    entradas.forEach((e) => {
-      if (!e.isIntersecting) return;
-      const el = e.target;
-      if (el.classList.contains('cota')) el.classList.add('is-desenhada');
-      else if (el.hasAttribute('data-conta')) contar(el);
-      else el.classList.add('is-in');
-      obs.unobserve(el);
-    });
-  }, { rootMargin: '0px 0px -8% 0px', threshold: .12 });
-  $$('.rv').forEach((el) => ioRevela.observe(el));
-  $$('.cota:not(.hero-cota-v):not(.hero-cota-h)').forEach((el) => ioRevela.observe(el));
-  if (motion()) $$('[data-conta]').forEach((el) => { el.textContent = '0'; });
-  $$('[data-conta]').forEach((el) => ioRevela.observe(el));
-
-  /* ------------------------------------------------------------------------
-     FL. 01 — HERO: título por máscara, depois a cota se desenha
-     ------------------------------------------------------------------------ */
-  const hero = $('.hero');
-  const iniciarHero = () => {
-    hero.classList.add('is-pronto');
-    setTimeout(() => $$('.hero .cota').forEach((c) => c.classList.add('is-desenhada')), motion() ? 450 : 0);
-  };
-  Promise.race([document.fonts?.ready ?? Promise.resolve(), new Promise((r) => setTimeout(r, 700))])
-    .then(() => requestAnimationFrame(iniciarHero));
-
-  /* ------------------------------------------------------------------------
-     FL. 02 — MANIFESTO: palavras de --sal para --tinta conforme a rolagem
-     ------------------------------------------------------------------------ */
-  const manifesto = $('[data-palavras]');
-  const quebrarPalavras = (no) => {
-    [...no.childNodes].forEach((filho) => {
-      if (filho.nodeType === 3) {
-        const frag = document.createDocumentFragment();
-        filho.textContent.split(/(\s+)/).forEach((pedaco) => {
-          if (!pedaco) return;
-          if (/^\s+$/.test(pedaco)) { frag.append(pedaco); return; }
-          const s = document.createElement('span');
-          s.className = 'w';
-          s.textContent = pedaco;
-          frag.append(s);
-        });
-        no.replaceChild(frag, filho);
-      } else if (filho.nodeType === 1) {
-        quebrarPalavras(filho);
-      }
-    });
-  };
-  quebrarPalavras(manifesto);
-  const palavras = $$('.w', manifesto);
-  palavras.forEach((w, i) => {
-    const a = 10 + (i / palavras.length) * 36;
-    w.style.setProperty('--a', a.toFixed(2) + '%');
-    w.style.setProperty('--b', (a + 5).toFixed(2) + '%');
-    w.dataset.a = a / 100;
-  });
-  // Fallback por JS para navegadores sem scroll-driven animations
-  const atualizarManifesto = () => {
-    if (temSDA || !motion()) return;
-    const r = manifesto.getBoundingClientRect();
-    const p = (innerHeight - r.top) / (innerHeight + r.height); // equivalente ao range "cover"
-    palavras.forEach((w) => w.classList.toggle('is-on', p > +w.dataset.a + .025));
-  };
-
-  /* ------------------------------------------------------------------------
-     FL. 03 — O QUE FAZEMOS: imagem que segue o cursor (desktop apenas)
-     ------------------------------------------------------------------------ */
-  const segue = $('#segue');
-  const segPh = $('.ph', segue);
-  const desktopFino = matchMedia('(hover: hover) and (pointer: fine)');
-  let sx = 0, sy = 0, tx = 0, ty = 0, segRaf = 0;
-  const animarSegue = () => {
-    sx += (tx - sx) * .2;
-    sy += (ty - sy) * .2;
-    segue.style.transform = `translate3d(${sx + 24}px, ${sy - 90}px, 0)`;
-    segRaf = Math.abs(tx - sx) + Math.abs(ty - sy) > .5 ? requestAnimationFrame(animarSegue) : 0;
-  };
-  $$('.servico').forEach((d) => {
-    const s = $('summary', d);
-    s.addEventListener('pointerenter', (e) => {
-      if (!desktopFino.matches || !motion() || e.pointerType !== 'mouse') return;
-      segPh.style.setProperty('--tom', d.dataset.tom);
-      segPh.dataset.ph = 'FOTO · ' + d.dataset.rotulo;
-      sx = tx = e.clientX; sy = ty = e.clientY;
-      segue.style.transform = `translate3d(${sx + 24}px, ${sy - 90}px, 0)`;
-      segue.classList.add('is-visivel');
-    });
-    s.addEventListener('pointermove', (e) => {
-      if (!segue.classList.contains('is-visivel')) return;
-      tx = e.clientX; ty = e.clientY;
-      if (!segRaf) segRaf = requestAnimationFrame(animarSegue);
-    });
-    s.addEventListener('pointerleave', () => segue.classList.remove('is-visivel'));
-  });
-
-  /* ------------------------------------------------------------------------
-     FL. 04 — OBRAS: sliders antes/depois (ponteiro + teclado)
-     ------------------------------------------------------------------------ */
-  $$('.ba').forEach((ba) => {
-    const alca = $('.ba-alca', ba);
-    let arrastando = false, tipo = 'mouse';
-    const definir = (v) => {
-      v = clamp(v, 0, 100);
-      ba.style.setProperty('--pos', v + '%');
-      const n = Math.round(v);
-      alca.setAttribute('aria-valuenow', n);
-      alca.setAttribute('aria-valuetext', `${n}% antes, ${100 - n}% depois`);
-    };
-    const pelaPosicao = (e) => {
-      const r = ba.getBoundingClientRect();
-      definir(((e.clientX - r.left) / r.width) * 100);
-    };
-    ba.addEventListener('pointerdown', (e) => {
-      if (e.button > 0) return;
-      arrastando = true; tipo = e.pointerType;
-      ba.setPointerCapture(e.pointerId);
-      ba.classList.add('is-arrastando');
-      // no toque, só move quando o dedo andar de lado (para não atrapalhar a rolagem)
-      if (tipo === 'mouse' || tipo === 'pen') { pelaPosicao(e); e.preventDefault(); }
-    });
-    ba.addEventListener('pointermove', (e) => { if (arrastando) pelaPosicao(e); });
-    const soltar = () => { arrastando = false; ba.classList.remove('is-arrastando'); };
-    ba.addEventListener('pointerup', soltar);
-    ba.addEventListener('pointercancel', soltar);
-    alca.addEventListener('keydown', (e) => {
-      const atual = +alca.getAttribute('aria-valuenow');
-      const mapa = { ArrowLeft: -5, ArrowDown: -5, ArrowRight: 5, ArrowUp: 5, PageDown: -20, PageUp: 20 };
-      if (e.key in mapa) definir(atual + mapa[e.key]);
-      else if (e.key === 'Home') definir(0);
-      else if (e.key === 'End') definir(100);
-      else return;
-      e.preventDefault();
-    });
-  });
-
-  /* ------------------------------------------------------------------------
-     FL. 04 — OBRAS: painel lateral com ficha técnica
-     ------------------------------------------------------------------------ */
-  const OBRAS = {
-    pitangui: {
-      nome: 'Casa Pitangui',
-      sub: 'Pitangui, Extremoz/RN · 2024',
-      foto: 'FOTO 3:2 · Fachada da Casa Pitangui vista da areia, fim de tarde, venezianas abertas',
-      ficha: [
-        ['Área', '142 m²'], ['Prazo', '7 meses (no prazo)'], ['Tipo', 'Reforma integral'],
-        ['Equipe', 'Helena Quaresma, Davi M. Brandão, Seu Raimundo Lira + 6'],
-        ['Materiais', 'Cumaru, alumínio anodizado, cerâmica do Seridó, pintura a cal'],
-      ],
-      texto: [
-        ['O desafio', 'Casa de veraneio dos anos 80, a 300 metros do mar, fechada dez meses por ano. Quando a Marina comprou, as esquadrias de ferro estavam soldadas pela ferrugem e o forro de PVC escondia três goteiras e um ninho de cupim.'],
-        ['A solução', 'Trocamos todo o ferro por alumínio anodizado e cumaru, abrimos a parede da cozinha para o vento leste atravessar a casa inteira e refizemos o telhado com manta e telha cerâmica sobre ripas tratadas. Nas paredes, cal: respira, não descasca e se repinta com balde e brocha.'],
-        ['O resultado', 'Sete meses de obra, entregue no dia combinado. A casa agora fica fechada sem mofar: as venezianas ventilam o tempo todo e fazem o trabalho que antes ninguém fazia.'],
-      ],
-    },
-    cardume: {
-      nome: 'Café Cardume',
-      sub: 'Ribeira, Natal/RN · 2023',
-      foto: 'FOTO 3:2 · Salão do Café Cardume às 6h, cadeiras ainda sobre as mesas, piso de granilite recém-polido',
-      ficha: [
-        ['Área', '68 m²'], ['Prazo', '41 noites, das 22h às 6h'], ['Tipo', 'Comercial'],
-        ['Equipe', 'Davi M. Brandão, Bia Fontes, Seu Raimundo Lira + 4 (turno noturno)'],
-        ['Materiais', 'Granilite moldado no local, concreto aparente, azulejo artesanal, compensado naval'],
-        ['Destaque', '0 dias de faturamento perdidos', true],
-      ],
-      texto: [
-        ['O desafio', 'O café não podia fechar. Os sócios tinham acabado de pagar o ponto, e cada dia de porta fechada era um mês de aluguel perdido.'],
-        ['A solução', 'Dividimos a obra em 41 noites. Toda madrugada terminava com o salão varrido, o pó isolado atrás de divisória de compensado e a máquina de espresso coberta com lona. O granilite foi feito em três etapas, o balcão de concreto curou nos fins de semana.'],
-        ['O resultado', 'Não perderam um dia de faturamento. Os clientes da manhã acompanharam a obra como novela, e alguns ainda perguntam quando vai ter a próxima temporada.'],
-      ],
-    },
-    areia: {
-      nome: 'Apartamento Areia Preta',
-      sub: 'Areia Preta, Natal/RN · 2025',
-      foto: 'FOTO 3:2 · Sala do apartamento com o mar ao fundo, marcenaria em laca clara, luz do meio da manhã',
-      ficha: [
-        ['Área', '96 m²'], ['Prazo', '4 meses'], ['Tipo', 'Interiores'],
-        ['Equipe', 'Bia Fontes, Helena Quaresma, Caio Neves (orçamento)'],
-        ['Materiais', 'Compensado naval com laca, ferragens em inox 316 e latão, linho, cerâmica do Seridó'],
-        ['Destaque', 'Orçado R$ 308.800 · gasto R$ 310.000', true],
-      ],
-      texto: [
-        ['O desafio', 'Apartamento de frente para o mar, 14º andar, com uma vista linda e uma corrosão igualmente impressionante: puxadores, dobradiças e luminárias oxidavam em menos de um ano.'],
-        ['A solução', 'Especificamos só ferragem em inox 316 e latão, marcenaria em compensado naval com acabamento em laca e drivers de iluminação longe da área que pega vento salgado. Cada item foi orçado com fornecedor e código antes de começar.'],
-        ['O resultado', 'O orçamento fechado foi de R$ 308.800. A obra custou R$ 310.000. A diferença de R$ 1.200 foi uma torneira que o Paulo trocou na última semana, por escolha dele.'],
-      ],
-    },
-    maracajau: {
-      nome: 'Pousada Maracajaú',
-      sub: 'Maracajaú, Maxaranguape/RN · 2022',
-      foto: 'FOTO 3:2 · Telhado verde do restaurante da pousada, vista de cima, coqueiros e mar ao fundo',
-      ficha: [
-        ['Área', '410 m²'], ['Prazo', '5 meses, na baixa temporada'], ['Tipo', 'Retrofit climático'],
-        ['Equipe', 'Helena Quaresma, Davi M. Brandão, Seu Raimundo Lira + 9'],
-        ['Materiais', 'Brises de madeira, telhado verde extensivo, venezianas, isolamento térmico de laje'],
-        ['Destaque', '38% menos energia no 1º verão', true],
-      ],
-      texto: [
-        ['O desafio', 'Doze quartos com ar-condicionado ligado 20 horas por dia. A conta de luz era a segunda maior despesa da pousada, atrás só da folha de pagamento.'],
-        ['A solução', 'Viramos as aberturas para o vento nordeste, instalamos brises de madeira na fachada oeste e cobrimos a laje do restaurante com telhado verde extensivo. Os quartos ganharam venezianas que ventilam com a janela fechada e a porta trancada.'],
-        ['O resultado', 'No primeiro verão, 38% menos energia, medidos na conta. Pelas contas do Jorge, o retrofit se paga em quatro anos. Pelas nossas também, o que é raro.'],
-      ],
-    },
-    livia: {
-      nome: 'Consultório Dra. Lívia Torquato',
-      sub: 'Tirol, Natal/RN · 2025',
-      foto: 'FOTO 3:2 · Sala de atendimento com painel ripado, poltrona de linho e luz indireta quente',
-      ficha: [
-        ['Área', '54 m²'], ['Prazo', '9 semanas'], ['Tipo', 'Comercial'],
-        ['Equipe', 'Bia Fontes, Davi M. Brandão, Caio Neves'],
-        ['Materiais', 'Piso vinílico tom areia, painel ripado acústico, iluminação indireta 2700 K'],
-      ],
-      texto: [
-        ['O desafio', 'A Dra. Lívia chegou com uma pasta de referências: mármore branco, muito vidro, luz fria. Dissemos não para duas ideias: o mármore no piso (escorrega e mancha) e a parede de vidro voltada para o poente (sauna às 15h).'],
-        ['A solução', 'Piso vinílico em tom de areia, painel ripado para isolar o som entre as salas e uma luz quente indireta que não deixa o paciente com cara de exame de sangue.'],
-        ['O resultado', 'Nove semanas de obra, com o consultório antigo funcionando até a véspera da mudança. Ela diz que os pacientes chegam mais calmos. A gente acredita.'],
-      ],
-    },
-  };
-  const ORDEM = Object.keys(OBRAS);
-  const painel = $('#painel');
-  let obraAtual = 0, gatilho = null;
-
-  const preencherPainel = (id) => {
-    const o = OBRAS[id];
-    obraAtual = ORDEM.indexOf(id);
-    $('#painel-fl').textContent = `Ficha técnica · ${String(obraAtual + 1).padStart(2, '0')}/05`;
-    $('#painel-titulo').textContent = o.nome;
-    $('#painel-sub').textContent = o.sub;
-    $('#painel-foto').dataset.ph = o.foto;
-    $('#painel-img').alt = o.foto.replace(/^FOTO 3:2 · /, '');
-    $('#painel-ficha').innerHTML = o.ficha.map(([k, v, d]) => `<dt>${k}</dt><dd${d ? ' class="destaque"' : ''}>${v}</dd>`).join('');
-    $('#painel-texto').innerHTML = o.texto.map(([h, p]) => `<section><h3 class="mono">${h}</h3><p>${p}</p></section>`).join('');
-    const ant = ORDEM[(obraAtual + ORDEM.length - 1) % ORDEM.length];
-    const prox = ORDEM[(obraAtual + 1) % ORDEM.length];
-    const bAnt = $('#painel-ant'), bProx = $('#painel-prox');
-    bAnt.dataset.alvo = ant; $('span:last-child', bAnt).textContent = OBRAS[ant].nome;
-    bProx.dataset.alvo = prox; $('span:first-child', bProx).textContent = OBRAS[prox].nome;
-    bAnt.setAttribute('aria-label', 'Obra anterior: ' + OBRAS[ant].nome);
-    bProx.setAttribute('aria-label', 'Próxima obra: ' + OBRAS[prox].nome);
-    painel.scrollTop = 0;
-  };
-  $$('[data-obra]').forEach((b) => b.addEventListener('click', () => {
-    gatilho = b;
-    preencherPainel(b.dataset.obra);
-    painel.showModal();
-  }));
-  ['#painel-ant', '#painel-prox'].forEach((s) => $(s).addEventListener('click', (e) => preencherPainel(e.currentTarget.dataset.alvo)));
-  $('#painel-fechar').addEventListener('click', () => painel.close());
-  painel.addEventListener('click', (e) => { if (e.target === painel) painel.close(); });
-  painel.addEventListener('close', () => gatilho?.focus());
-
-  /* ------------------------------------------------------------------------
-     FL. 05 — COMO TRABALHAMOS: linha do tempo horizontal fixada
-     ------------------------------------------------------------------------ */
-  const proc = $('#processo');
-  const trilhoScroll = $('#trilho-scroll');
-  const trilho = $('#trilho');
-  const etapas = $$('.etapa', trilho);
-  const reguaAtual = $('#regua-atual');
-  const reguaBarra = $('#regua-barra');
-  const mqLargo = matchMedia('(min-width: 64rem)');
-  let distancia = 0, fixado = false;
-
-  const medirProcesso = () => {
-    fixado = mqLargo.matches && motion();
-    proc.classList.toggle('is-fixado', fixado);
-    if (!fixado) { trilhoScroll.style.height = ''; trilho.style.transform = ''; return; }
-    distancia = Math.max(0, trilho.scrollWidth - innerWidth);
-    trilhoScroll.style.height = `${distancia + innerHeight}px`;
-    atualizarProcesso();
-  };
-  const atualizarProcesso = () => {
-    if (!fixado) return;
-    const r = trilhoScroll.getBoundingClientRect();
-    const total = r.height - innerHeight;
-    const p = total > 0 ? clamp(-r.top / total, 0, 1) : 0;
-    trilho.style.transform = `translate3d(${(-p * distancia).toFixed(1)}px, 0, 0)`;
-    reguaBarra.style.setProperty('--p', p.toFixed(4));
-    const i = Math.min(etapas.length - 1, Math.floor(p * etapas.length * .999 + .15));
-    etapas.forEach((el, k) => { el.classList.toggle('is-atual', k === i); el.classList.toggle('is-feita', k < i); });
-    reguaAtual.textContent = `Etapa ${String(i + 1).padStart(2, '0')}/06`;
-  };
-  medirProcesso();
-  mqLargo.addEventListener('change', medirProcesso);
-  mqMotion.addEventListener('change', medirProcesso);
-  let rTimer;
-  addEventListener('resize', () => { clearTimeout(rTimer); rTimer = setTimeout(medirProcesso, 120); });
-  document.fonts?.ready.then(medirProcesso);
-
-  /* ------------------------------------------------------------------------
-     Um único listener de rolagem, sincronizado com o quadro
-     ------------------------------------------------------------------------ */
-  let pendente = false;
-  addEventListener('scroll', () => {
-    if (pendente) return;
-    pendente = true;
-    requestAnimationFrame(() => {
-      atualizarTopo();
-      atualizarProcesso();
-      atualizarManifesto();
-      pendente = false;
-    });
-  }, { passive: true });
-  atualizarManifesto();
-
-  /* ------------------------------------------------------------------------
-     FL. 06 — ESTIMATIVA RÁPIDA
-     ------------------------------------------------------------------------ */
-  const calc = $('#calc');
-  const areaIn = $('#calc-area');
-  const reais = (v) => 'R$ ' + Math.round(v).toLocaleString('pt-BR');
-  const faixa = (v) => {
-    if (v >= 1e6) {
-      const m = v / 1e6;
-      return 'R$ ' + m.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + (m >= 2 ? ' milhões' : ' milhão');
-    }
-    return 'R$ ' + Math.round(v / 1000).toLocaleString('pt-BR') + ' mil';
-  };
-  let estimativa = {};
-  const calcular = () => {
-    const f = new FormData(calc);
-    const tipo = f.get('tipo');
-    const area = +f.get('area');
-    const padraoEl = $('input[name="padrao"]:checked', calc);
-    const preco = +padraoEl.value;
-    const moveis = f.has('moveis'), retrofit = f.has('retrofit');
-    const base = area * preco;
-    const total = base * (1 + (moveis ? .18 : 0) + (retrofit ? .12 : 0));
-    const lo = total * .93, hi = total * 1.07;
-
-    // prazo: cresce com a área, ajustado pelo padrão e extras; comercial concentra equipe
-    let meses = (1.5 + area / 30) * +padraoEl.dataset.prazo + (retrofit ? 1 : 0) + (moveis ? .5 : 0);
-    if (tipo === 'comercial') meses *= .6;
-    const mLo = Math.max(1, Math.round(meses * .9));
-    const mHi = Math.max(mLo + 1, Math.round(meses * 1.15));
-
-    areaIn.style.setProperty('--fill', ((area - 20) / 380) * 100 + '%');
-    areaIn.setAttribute('aria-valuetext', `${area} metros quadrados`);
-    $('#calc-area-saida').textContent = `${area} m²`;
-    $('#res-resumo').textContent = `${area} m² · ${padraoEl.dataset.nome}`;
-    $('#res-valor').innerHTML = `${faixa(lo)} <span class="a">a</span> ${faixa(hi)}`;
-    $('#res-prazo').innerHTML = `Prazo estimado: <strong>${mLo} a ${mHi} meses</strong> de obra${tipo === 'comercial' ? ', noturna se o negócio não puder fechar' : ''}.`;
-    const linhas = [`${area} m² × ${reais(preco)} = ${reais(base)}`];
-    if (moveis) linhas.push(`+ 18% móveis planejados`);
-    if (retrofit) linhas.push(`+ 12% retrofit climático`);
-    linhas.push(`Faixa de ±7% sobre ${reais(total)}`);
-    $('#res-conta').innerHTML = linhas.join('<br>');
-    estimativa = { tipo, area, padrao: padraoEl.dataset.nome, moveis, retrofit, faixa: `${faixa(lo)} a ${faixa(hi)}`, prazo: `${mLo} a ${mHi} meses` };
-  };
-  calc.addEventListener('input', calcular);
-  calc.addEventListener('change', calcular);
-  calc.addEventListener('submit', (e) => e.preventDefault());
-  calcular();
-
-  // "Enviar essa estimativa e marcar visita" → preenche o formulário de contato
-  $('#calc-enviar').addEventListener('click', () => {
-    const e = estimativa;
-    $('#f-tipo').value = e.tipo === 'comercial' ? 'comercial' : (e.retrofit ? 'retrofit' : 'residencial');
-    $('#f-area').value = e.area;
-    const extras = [e.moveis && 'com móveis planejados', e.retrofit && 'com retrofit climático'].filter(Boolean).join(' e ');
-    $('#f-msg').value = `Fiz a estimativa no site: obra ${e.tipo}, ${e.area} m², padrão ${e.padrao}${extras ? ', ' + extras : ''}. Deu ${e.faixa}, ${e.prazo} de obra. Quero marcar uma visita.`;
-    ['#f-tipo', '#f-area'].forEach((s) => validarCampo($(s), true));
-    $('#contato').scrollIntoView({ behavior: motion() ? 'smooth' : 'auto', block: 'start' });
-    setTimeout(() => $('#f-nome').focus({ preventScroll: true }), motion() ? 700 : 0);
-  });
-
-  /* ------------------------------------------------------------------------
-     FL. 08 — DEPOIMENTOS (carrossel, um por vez, sem autoplay)
-     ------------------------------------------------------------------------ */
-  const deps = $$('.dep');
-  const contador = $('#dep-contador');
-  let depAtual = 0;
-  const irPara = (i) => {
-    depAtual = (i + deps.length) % deps.length;
-    deps.forEach((d, k) => {
-      const ativo = k === depAtual;
-      d.classList.toggle('is-ativo', ativo);
-      d.inert = !ativo;
-      d.setAttribute('aria-hidden', String(!ativo));
-    });
-    contador.innerHTML = `<b>${String(depAtual + 1).padStart(2, '0')}</b> / ${String(deps.length).padStart(2, '0')}`;
-  };
-  $('#dep-ant').addEventListener('click', () => irPara(depAtual - 1));
-  $('#dep-prox').addEventListener('click', () => irPara(depAtual + 1));
-  $('#carrossel').addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowLeft') { irPara(depAtual - 1); e.preventDefault(); }
-    if (e.key === 'ArrowRight') { irPara(depAtual + 1); e.preventDefault(); }
-  });
-  irPara(0);
-
-  /* ------------------------------------------------------------------------
-     FL. 11 — FORMULÁRIO: validação em tempo real, mensagens humanas
-     (só aparece erro depois que a pessoa mexeu e saiu do campo — como :user-invalid)
-     ------------------------------------------------------------------------ */
-  const form = $('#form');
-  const digitos = (v) => v.replace(/\D/g, '');
-  const REGRAS = {
-    nome: (v) => !v.trim() ? 'Como a gente te chama? Só o primeiro nome já serve.'
-      : v.trim().length < 2 ? 'Precisa de pelo menos duas letras.' : '',
-    whatsapp: (v) => {
-      const d = digitos(v);
-      if (!d) return 'Faltou o WhatsApp, a gente responde por lá.';
-      if (d.length < 10 || d.length > 11) return 'Esse número parece incompleto. Coloca o DDD também, tipo (84) 99188-0412.';
-      return '';
-    },
-    local: (v) => !v.trim() ? 'Em que bairro ou cidade fica a obra? Atendemos até 120 km de Natal.' : '',
-    tipo: (v) => !v ? 'Escolhe o tipo mais próximo. Dá para ajustar na conversa.' : '',
-    area: (v) => {
-      if (!v) return '';
-      const n = +v;
-      return (!Number.isFinite(n) || n < 5 || n > 5000) ? 'Entre 5 e 5.000 m². Pode ser chute, a gente mede depois.' : '';
-    },
-  };
-  const tocados = new WeakSet();
-  const validarCampo = (el, forcar = false) => {
-    const regra = REGRAS[el.name];
-    if (!regra) return true;
-    if (forcar) tocados.add(el);
-    const msg = regra(el.value);
-    const campo = el.closest('.campo');
-    const erro = $('.campo-erro', campo);
-    if (!tocados.has(el)) return !msg;
-    erro.textContent = msg;
-    campo.classList.toggle('is-erro', !!msg);
-    campo.classList.toggle('is-ok', !msg && !!el.value.trim());
-    if (msg) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
-    return !msg;
-  };
-  const mascaraWhats = (v) => {
-    const d = digitos(v).slice(0, 11);
-    if (d.length < 10) return v;
-    return d.length === 11 ? `(${d.slice(0, 2)}) ${d.slice(2, 7)}-${d.slice(7)}` : `(${d.slice(0, 2)}) ${d.slice(2, 6)}-${d.slice(6)}`;
-  };
-  form.addEventListener('focusout', (e) => {
-    const el = e.target;
-    if (!el.name || !REGRAS[el.name]) return;
-    if (el.name === 'whatsapp') el.value = mascaraWhats(el.value);
-    if (el.value || tocados.has(el)) validarCampo(el, true);
-  });
-  form.addEventListener('input', (e) => { if (tocados.has(e.target)) validarCampo(e.target); });
-  form.addEventListener('change', (e) => { if (e.target.tagName === 'SELECT') validarCampo(e.target, true); });
-
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const campos = $$('input[name], select[name]', form).filter((el) => REGRAS[el.name]);
-    const invalidos = campos.filter((el) => !validarCampo(el, true));
-    const status = $('#form-status');
-    if (invalidos.length) {
-      status.textContent = invalidos.length === 1
-        ? 'Falta só um campo. Já deixamos o cursor nele.'
-        : `Faltam ${invalidos.length} campos. O primeiro já está selecionado.`;
-      invalidos[0].focus();
-      return;
-    }
-    status.textContent = '';
-    // enviar: aqui entraria o fetch para o serviço de formulários
-    form.hidden = true;
-    const ok = $('#sucesso');
-    ok.hidden = false;
-    ok.focus();
-  });
-
-  /* ------------------------------------------------------------------------
-     CURSOR PERSONALIZADO — 8px; vira "arraste" sobre os sliders (desktop)
-     ------------------------------------------------------------------------ */
-  if (desktopFino.matches && motion()) {
-    const cursor = document.createElement('div');
-    cursor.className = 'cursor is-oculto';
-    cursor.setAttribute('aria-hidden', 'true');
-    cursor.innerHTML = '<div class="cursor-disco"><span>arraste</span></div>';
-    document.body.append(cursor);
-    root.classList.add('tem-cursor');
-    let cx = 0, cy = 0, agendado = false;
-    addEventListener('pointermove', (e) => {
-      if (e.pointerType !== 'mouse') return;
-      cx = e.clientX; cy = e.clientY;
-      cursor.classList.remove('is-oculto');
-      if (!agendado) {
-        agendado = true;
-        requestAnimationFrame(() => { cursor.style.transform = `translate3d(${cx}px, ${cy}px, 0)`; agendado = false; });
-      }
-    }, { passive: true });
-    document.addEventListener('pointerover', (e) => {
-      const t = e.target;
-      const arraste = !!t.closest('.ba');
-      cursor.classList.toggle('is-arraste', arraste);
-      cursor.classList.toggle('is-link', !arraste && !!t.closest('a, button, summary, label, [role="slider"], input[type="range"]'));
-      cursor.classList.toggle('is-oculto', !!t.closest('input:not([type="range"]):not([type="radio"]):not([type="checkbox"]), textarea, select'));
-    });
-    document.documentElement.addEventListener('pointerleave', () => cursor.classList.add('is-oculto'));
-  }
-})();
-</script>
+<script src="assets/js/site.js" defer></script>
 </body>
 </html>
